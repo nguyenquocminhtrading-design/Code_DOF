@@ -1,0 +1,231 @@
+R  4 | Lvl 1 | ASSETS                                        | 
+R  5 | Lvl 2 | Current Assets                                | 
+R  6 | Lvl 3 | Checking/Savings                              | 
+R  7 | Lvl 4 | East West Bank -8078001859                    | 250121.92
+R  8 | Lvl 4 | EWB Payroll 2725                              | 505.76
+R  9 | Lvl 4 | Fresno First Bank - 3743                      | 23440.48
+R 10 | Lvl 4 | Petty Cash                                    | 239.9
+R 11 | Lvl 3 | Total Checking/Savings                        | =ROUND(SUM(G6:G10),5)
+R 12 | Lvl 3 | Accounts Receivable                           | 
+R 13 | Lvl 4 | Accounts Receivable                           | 4283831.33
+R 14 | Lvl 4 | Allowance for Doubtful Accounts               | 
+R 15 | Lvl 3 | Total Accounts Receivable                     | =ROUND(SUM(G12:G13),5)
+R 16 | Lvl 3 | Other Current Assets                          | 
+R 17 | Lvl 4 | Inventory Asset                               | 
+R 18 | Lvl 5 | Inventory Clearing                            | 14324.27
+R 19 | Lvl 5 | Inventory Asset                               | 3880304.97
+R 20 | Lvl 4 | Total Inventory Asset                         | =ROUND(SUM(G17:G19),5)
+R 21 | Lvl 4 | Undeposited Funds                             | 
+R 22 | Lvl 4 | Pre-paid                                      | 85670.41
+R 23 | Lvl 3 | Total Other Current Assets                    | =ROUND(G16+SUM(G20:G22),5)
+R 24 | Lvl 2 | Total Current Assets                          | =ROUND(G5+G11+G15+G23,5)
+R 25 | Lvl 2 | Fixed Assets                                  | 
+R 26 | Lvl 3 | Accum. Depreciation - Equipment               | -162648
+R 27 | Lvl 3 | Accum. Depreciation - Furniture               | -18636
+R 28 | Lvl 3 | Accum. Depreciations                          | -3464061.54
+R 29 | Lvl 3 | Auto                                          | 195389.91
+R 30 | Lvl 3 | Automation                                    | 494022.74
+R 31 | Lvl 3 | Building Improvements - 12368                 | 30988.55
+R 32 | Lvl 3 | Building Improvements - 2628                  | 736826.42
+R 33 | Lvl 3 | Computer                                      | 8320.32
+R 34 | Lvl 3 | Construction in Progress                      | 1558071.71
+R 35 | Lvl 3 | Furniture and Equipment                       | 63954.16
+R 36 | Lvl 3 | Office Equipment                              | 59717.64
+R 37 | Lvl 3 | Production Equipment                          | 3579867.47
+R 38 | Lvl 2 | Total Fixed Assets                            | =ROUND(SUM(G25:G37),5)
+R 39 | Lvl 2 | Other Assets                                  | 
+R 40 | Lvl 3 | Deposit                                       | 101551.61
+R 41 | Lvl 3 | Employee Advance                              | 1609.96
+R 42 | Lvl 2 | Total Other Assets                            | =ROUND(SUM(G39:G41),5)
+R 43 | Lvl 1 | TOTAL ASSETS                                  | =ROUND(G4+G24+G38+G42,5)
+R 44 | Lvl 1 | LIABILITIES & EQUITY                          | 
+R 45 | Lvl 2 | Liabilities                                   | 
+R 46 | Lvl 3 | Current Liabilities                           | 
+R 47 | Lvl 4 | Accounts Payable                              | 2777741.46
+R 48 | Lvl 4 | Credit Cards                                  | 
+R 49 | Lvl 5 | Home Depot                                    | 2340.8
+R 50 | Lvl 5 | Macy's                                        | 218.84
+R 51 | Lvl 5 | VISA - 7025                                   | 5653.01
+R 52 | Lvl 4 | Total Credit Cards                            | =ROUND(SUM(G48:G51),5)
+R 53 | Lvl 4 | Other Current Liabilities                     | 
+R 54 | Lvl 5 | Accrued Expenses                              | 33640.25
+R 55 | Lvl 5 | Installment Loan                              | 
+R 56 | Lvl 6 | Electric Forklift 7FBEU20                     | 374.2
+R 57 | Lvl 6 | Forklift Battery                              | 
+R 58 | Lvl 6 | Toyota                                        | 223.07
+R 59 | Lvl 5 | Total Installment Loan                        | =ROUND(SUM(G56:G58),5)
+R 60 | Lvl 5 | Payroll Liabilities                           | 
+R 61 | Lvl 6 | Payroll Liabilities - Other                   | 
+R 62 | Lvl 6 | Payroll Accrual                               | 106157.62
+R 63 | Lvl 5 | Total Payroll Liabilities                     | =ROUND(SUM(G60:G62),5)
+R 64 | Lvl 4 | Total Other Current Liabilities               | =ROUND(SUM(G53:G54)+G59+G63,5)
+R 65 | Lvl 3 | Total Current Liabilities                     | =ROUND(G47+G52+G64,5)
+R 66 | Lvl 3 | Long Term Liabilities                         | 
+R 67 | Lvl 4 | Advance from Danway Holdings Lt               | 
+R 68 | Lvl 4 | East West Loan # 332001332                    | 500000
+R 69 | Lvl 4 | East West Loan # 355001220                    | 1500000
+R 70 | Lvl 4 | Loan from Shareholders                        | 
+R 71 | Lvl 4 | Loan Payable - Alex Do                        | 
+R 72 | Lvl 4 | Loan Payable - DDFH                           | 1277610.4
+R 73 | Lvl 4 | Loan Payable - Danways                        | 1820000
+R 74 | Lvl 4 | Loan Payable - DDF Hongkong                   | 
+R 75 | Lvl 4 | Loan Payable - DDP, LLC                       | 101075.63
+R 76 | Lvl 4 | Loan Payable - Horseshoe                      | 
+R 77 | Lvl 3 | Total Long Term Liabilities                   | =ROUND(SUM(G66:G76),5)
+R 78 | Lvl 2 | Total Liabilities                             | =ROUND(+G65+G77,5)
+R 79 | Lvl 2 | Equity                                        | 
+R 80 | Lvl 3 | Capital Stock                                 | 2000000
+R 81 | Lvl 3 | Members Equity                                | 1125172.4
+R 82 | Lvl 3 | Retained Earnings                             | 459960.9
+R 83 | Lvl 3 | Net Income                                    | 13245.41
+R 84 | Lvl 2 | Total Equity                                  | =ROUND(SUM(G79:G83),5)
+R 85 | Lvl 1 | TOTAL LIABILITIES & EQUITY                    | =ROUND(G46+G78+G84,5)
+R 86 | Lvl 1 | Check                                         | =G85-G43
+R 89 | Lvl 1 | PROFIT AND LOSS                               | 2025-01-01 00:00:00
+R 90 | Lvl 1 | Income                                        | 
+R 91 | Lvl 2 | REVENUE                                       | 
+R 92 | Lvl 3 | Custom Processing                             | 
+R 93 | Lvl 4 | Mixing fee                                    | 
+R 94 | Lvl 4 | Packing Fees                                  | 6914.4
+R 95 | Lvl 4 | Custom Processing - Other                     | 
+R 96 | Lvl 4 | Roasting Fees                                 | 13513.5
+R 97 | Lvl 3 | Total Custom Processing                       | =ROUND(SUM(G92:G96),5)
+R 98 | Lvl 3 | Discounts Allowed                             | -1739.51
+R 99 | Lvl 3 | Other Revenue                                 | 19655.33
+R100 | Lvl 3 | Returns and Allowances                        | 
+R101 | Lvl 3 | Sales                                         | 1744525.28
+R102 | Lvl 3 | Store Sales                                   | 776.97
+R103 | Lvl 2 | Total REVENUE                                 | =ROUND(G91+SUM(G97:G102),5)
+R104 | Lvl 1 | Total Income                                  | =ROUND(G90+G103,5)
+R105 | Lvl 1 | Cost of Goods Sold                            | 
+R106 | Lvl 2 | Cost of Goods Sold                            | 
+R107 | Lvl 3 | Discounts on Purchases                        | 
+R108 | Lvl 3 | Inventory Write Off                           | 
+R109 | Lvl 3 | Physical Inventory Variance                   | 
+R110 | Lvl 3 | Cost of Goods Sold - Other                    | 1360783.61
+R111 | Lvl 2 | Total Cost of Goods Sold                      | =ROUND(SUM(G106:G110),5)
+R112 | Lvl 2 | Direct Labor                                  | 
+R113 | Lvl 3 | Applied DL                                    | 
+R114 | Lvl 3 | Bonus                                         | 300
+R115 | Lvl 3 | Payroll Taxes                                 | 10501.77
+R116 | Lvl 3 | Temporary Labor                               | 6488.78
+R117 | Lvl 3 | Direct Labor                                  | 93349.4
+R118 | Lvl 2 | Total Direct Labor                            | =ROUND(SUM(G112:G117),5)
+R119 | Lvl 2 | FACTORY OVERHEAD                              | 
+R120 | Lvl 3 | Applied OH                                    | 0
+R121 | Lvl 3 | Bonus                                         | 
+R122 | Lvl 3 | Building Repairs                              | 0
+R123 | Lvl 3 | Calibration & Certification                   | 3026.93
+R124 | Lvl 3 | Cleaning Services                             | 0
+R125 | Lvl 3 | Consulting                                    | 1042.46
+R126 | Lvl 3 | Depreciation Expense                          | 33951.96
+R127 | Lvl 3 | Equipment Rental                              | 0
+R128 | Lvl 3 | Equipment Repairs                             | 309.75
+R129 | Lvl 3 | Fire Protection                               | 0
+R130 | Lvl 3 | Fumigation                                    | 0
+R131 | Lvl 3 | Janitorial Supplies                           | 4269.96
+R132 | Lvl 3 | Lab Fees                                      | 4384.25
+R133 | Lvl 3 | Lease Payment                                 | 1456.51
+R134 | Lvl 3 | Licenses & Permits                            | 
+R135 | Lvl 3 | Pallets                                       | -1347
+R136 | Lvl 3 | Payroll Expense                               | 
+R137 | Lvl 4 | Payroll Taxes Production                      | 3785.69
+R138 | Lvl 4 | Payroll Expense - Other                       | 
+R139 | Lvl 4 | Salaries                                      | 35154.28
+R140 | Lvl 3 | Total Payroll Expense                         | =ROUND(SUM(G136:G139),5)
+R141 | Lvl 3 | Pest Control                                  | 1030
+R142 | Lvl 3 | Plate Charge                                  | 0
+R143 | Lvl 3 | Production Supplies                           | 10426.79
+R144 | Lvl 3 | Rent Expense                                  | 25000
+R145 | Lvl 3 | Repairs and Maintenance                       | 12547.21
+R146 | Lvl 3 | Sales Tax/Use Tax                             | 0
+R147 | Lvl 3 | Tools & Instruments                           | 0
+R148 | Lvl 3 | Training and Seminars                         | 0
+R149 | Lvl 3 | Uniforms                                      | 2309.88
+R150 | Lvl 3 | Utilities                                     | 16668.52
+R151 | Lvl 3 | Validation Expenses                           | 0
+R152 | Lvl 3 | Workers Comp                                  | 3187.5
+R153 | Lvl 3 | FACTORY OVERHEAD - Other                      | 1154.26
+R154 | Lvl 3 | Freight and Shipping Costs                    | 0
+R155 | Lvl 2 | Total FACTORY OVERHEAD                        | =ROUND(SUM(G119:G135)+SUM(G140:G154),5)
+R156 | Lvl 1 | Total COGS                                    | =ROUND(G105+G111+G118+G155,5)
+R157 | Lvl 1 | Gross Profit                                  | =ROUND(G104-G156,5)
+R158 | Lvl 1 | Expense                                       | 
+R159 | Lvl 2 | ADMINISTRATION EXPENSES                       | 
+R160 | Lvl 3 | Accounting Fees                               | 
+R161 | Lvl 3 | Automobile Expense                            | 
+R162 | Lvl 4 | Auto Repairs                                  | 
+R163 | Lvl 4 | Gasoline, parking & mileage                   | 214.8
+R164 | Lvl 4 | Registration                                  | 
+R165 | Lvl 4 | Automobile Expense - Other                    | 
+R166 | Lvl 3 | Total Automobile Expense                      | =ROUND(SUM(G161:G165),5)
+R167 | Lvl 3 | Bad Debts Expense                             | 0
+R168 | Lvl 3 | Bank Service Charges                          | 355
+R169 | Lvl 3 | Bank Document Fees                            | 0
+R170 | Lvl 3 | Business Tax                                  | 0
+R171 | Lvl 3 | Computer and Internet Expenses                | 2432.74
+R172 | Lvl 3 | Credit Card Service Charge                    | 0
+R173 | Lvl 3 | Donation                                      | 0
+R174 | Lvl 3 | Dues and Subscriptions                        | 0
+R175 | Lvl 3 | Insurance Expense                             | 
+R176 | Lvl 4 | General Liability                             | 3212.43
+R177 | Lvl 4 | Property                                      | 2862.76
+R178 | Lvl 4 | Insurance Expense - Other                     | 
+R179 | Lvl 4 | Vehicle Insurance                             | 653.1
+R180 | Lvl 3 | Total Insurance Expense                       | =ROUND(SUM(G175:G179),5)
+R181 | Lvl 3 | Legal                                         | 0
+R182 | Lvl 3 | Licenses & Permits                            | 287.22
+R183 | Lvl 3 | Loan Processing Fees                          | 0
+R184 | Lvl 3 | Meals and Entertainment                       | 1516.38
+R185 | Lvl 3 | Office Expenses                               | 4158.38
+R186 | Lvl 3 | Payroll Expenses                              | 
+R187 | Lvl 4 | Bonus                                         | 
+R188 | Lvl 4 | Payroll Processing Fees                       | 2833.16
+R189 | Lvl 4 | Payroll Taxes - Admin                         | 12049.4
+R190 | Lvl 4 | Salaries - Admin                              | 39888.65
+R191 | Lvl 4 | Medical Expenses                              | 
+R192 | Lvl 4 | Employee Benefits                             | 829.18
+R193 | Lvl 4 | Payroll Expenses - Other                      | 
+R194 | Lvl 3 | Total Payroll Expenses                        | =ROUND(SUM(G186:G193),5)
+R195 | Lvl 3 | Penalty & fine                                | 525.6
+R196 | Lvl 3 | Property Taxes Paid                           | 0
+R197 | Lvl 3 | Printing & Reproduction                       | 0
+R198 | Lvl 3 | Security and Alarm System                     | 180.57
+R199 | Lvl 3 | Suspense                                      | 0
+R200 | Lvl 3 | Storage Expense                               | 5715
+R201 | Lvl 3 | State Tax                                     | 0
+R202 | Lvl 3 | ADMINISTRATION EXPENSES - Other               | 223.81
+R203 | Lvl 3 | Telephone Expense                             | 1379.44
+R204 | Lvl 2 | Total ADMINISTRATION EXPENSES                 | =ROUND(SUM(G159:G160)+SUM(G166:G174)+SUM(G180:G185)+SUM(G194:G203),5)
+R205 | Lvl 2 | SALES EXPENSES                                | 
+R206 | Lvl 3 | Commissions                                   | 800
+R207 | Lvl 3 | Domestic Shipping & Handling                  | 23545.75
+R208 | Lvl 3 | EDI Fees                                      | 213.98
+R209 | Lvl 3 | Export Shipping & Handling                    | 0
+R210 | Lvl 3 | Postage and Delivery Expense                  | 198.84
+R211 | Lvl 3 | Service Fee                                   | 918.75
+R212 | Lvl 3 | Shipping Supplies                             | 0
+R213 | Lvl 3 | Trade Show/Promotion                          | 10562.5
+R214 | Lvl 3 | SALES EXPENSES - Other                        | 0
+R215 | Lvl 3 | Travel Expense                                | 0
+R216 | Lvl 2 | Total SALES EXPENSES                          | =ROUND(SUM(G205:G215),5)
+R217 | Lvl 2 | Taxes                                         | 0
+R218 | Lvl 1 | Total Expense                                 | =ROUND(G158+G204+SUM(G216:G217),5)
+R219 | Lvl 1 | Net Ordinary Income                           | =ROUND(G157-G218,5)
+R220 | Lvl 1 | Other Income/Expense                          | 
+R221 | Lvl 2 | Other Income                                  | 
+R222 | Lvl 3 | Foreign Currency Gain/Loss                    | 
+R223 | Lvl 3 | Other Income                                  | 2.61
+R224 | Lvl 2 | Total Other Income                            | =ROUND(SUM(G221:G223),5)
+R225 | Lvl 2 | Other Expense                                 | 
+R226 | Lvl 3 | Interest Expense                              | 25063.22
+R227 | Lvl 3 | Loss(Gain) on disposal of Asset               | 
+R228 | Lvl 3 | Other Expense (adjustment)                    | 
+R229 | Lvl 2 | Total Other Expense                           | =ROUND(SUM(G225:G228),5)
+R230 | Lvl 1 | Net Other Income                              | =ROUND(G224-G229,5)
+R231 | Lvl 1 | Net operating Income                          | =ROUND(G219+G230,5)
+R233 | Lvl 1 | Commission/Service Fee - Vietnam              | 0
+R234 | Lvl 1 | Adjusted Net Income                           | =SUM(G231:G233)
+R235 | Lvl 1 | Check                                         | 
+R238 | Lvl 1 | Per chị Khánh                                 | 23695.59
+R243 | Lvl 1 | EBITDA                                        | =G234+G226+G126

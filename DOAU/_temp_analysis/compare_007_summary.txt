@@ -1,0 +1,473 @@
+=== 007-DOAU data ===
+  1 | Lvl 1 | FX
+  2 | Lvl 1 | BALANCE SHEET
+  4 | Lvl 1 | ASSETS
+  5 | Lvl 2 | Current Assets
+  6 | Lvl 3 | Checking/Savings
+  7 | Lvl 4 | East West Bank -8078001859
+  8 | Lvl 4 | EWB Payroll 2725
+  9 | Lvl 4 | Fresno First Bank - 3743
+ 10 | Lvl 4 | Petty Cash
+ 11 | Lvl 3 | Total Checking/Savings
+ 12 | Lvl 3 | Accounts Receivable
+ 13 | Lvl 4 | Accounts Receivable
+ 14 | Lvl 4 | Allowance for Doubtful Accounts
+ 15 | Lvl 3 | Total Accounts Receivable
+ 16 | Lvl 3 | Other Current Assets
+ 17 | Lvl 4 | Inventory Asset
+ 18 | Lvl 5 | Inventory Clearing
+ 19 | Lvl 5 | Inventory Asset
+ 20 | Lvl 4 | Total Inventory Asset
+ 21 | Lvl 4 | Undeposited Funds
+ 22 | Lvl 4 | Pre-paid
+ 23 | Lvl 3 | Total Other Current Assets
+ 24 | Lvl 2 | Total Current Assets
+ 25 | Lvl 2 | Fixed Assets
+ 26 | Lvl 3 | Accum. Depreciation - Equipment
+ 27 | Lvl 3 | Accum. Depreciation - Furniture
+ 28 | Lvl 3 | Accum. Depreciations
+ 29 | Lvl 3 | Auto
+ 30 | Lvl 3 | Automation
+ 31 | Lvl 3 | Building Improvements - 12368
+ 32 | Lvl 3 | Building Improvements - 2628
+ 33 | Lvl 3 | Computer
+ 34 | Lvl 3 | Construction in Progress
+ 35 | Lvl 3 | Furniture and Equipment
+ 36 | Lvl 3 | Office Equipment
+ 37 | Lvl 3 | Production Equipment
+ 38 | Lvl 2 | Total Fixed Assets
+ 39 | Lvl 2 | Other Assets
+ 40 | Lvl 3 | Deposit
+ 41 | Lvl 3 | Employee Advance
+ 42 | Lvl 2 | Total Other Assets
+ 43 | Lvl 1 | TOTAL ASSETS
+ 44 | Lvl 1 | LIABILITIES & EQUITY
+ 45 | Lvl 2 | Liabilities
+ 46 | Lvl 3 | Current Liabilities
+ 47 | Lvl 4 | Accounts Payable
+ 48 | Lvl 4 | Credit Cards
+ 49 | Lvl 5 | Home Depot
+ 50 | Lvl 5 | Macy's
+ 51 | Lvl 5 | VISA - 7025
+ 52 | Lvl 4 | Total Credit Cards
+ 53 | Lvl 4 | Other Current Liabilities
+ 54 | Lvl 5 | Accrued Expenses
+ 55 | Lvl 5 | Installment Loan
+ 56 | Lvl 6 | Electric Forklift 7FBEU20
+ 57 | Lvl 6 | Forklift Battery
+ 58 | Lvl 6 | Toyota
+ 59 | Lvl 5 | Total Installment Loan
+ 60 | Lvl 5 | Payroll Liabilities
+ 61 | Lvl 6 | Payroll Liabilities - Other
+ 62 | Lvl 6 | Payroll Accrual
+ 63 | Lvl 5 | Total Payroll Liabilities
+ 64 | Lvl 4 | Total Other Current Liabilities
+ 65 | Lvl 3 | Total Current Liabilities
+ 66 | Lvl 3 | Long Term Liabilities
+ 67 | Lvl 4 | Advance from Danway Holdings Lt
+ 68 | Lvl 4 | East West Loan # 332001332
+ 69 | Lvl 4 | East West Loan # 355001220
+ 70 | Lvl 4 | Loan from Shareholders
+ 71 | Lvl 4 | Loan Payable - Alex Do
+ 72 | Lvl 4 | Loan Payable - DDFH
+ 73 | Lvl 4 | Loan Payable - Danways
+ 74 | Lvl 4 | Loan Payable - DDF Hongkong
+ 75 | Lvl 4 | Loan Payable - DDP, LLC
+ 76 | Lvl 4 | Loan Payable - Horseshoe
+ 77 | Lvl 3 | Total Long Term Liabilities
+ 78 | Lvl 2 | Total Liabilities
+ 79 | Lvl 2 | Equity
+ 80 | Lvl 3 | Capital Stock
+ 81 | Lvl 3 | Members Equity
+ 82 | Lvl 3 | Retained Earnings
+ 83 | Lvl 3 | Net Income
+ 84 | Lvl 2 | Total Equity
+ 85 | Lvl 1 | TOTAL LIABILITIES & EQUITY
+ 86 | Lvl 1 | Check
+ 89 | Lvl 1 | PROFIT AND LOSS
+ 90 | Lvl 1 | Income
+ 91 | Lvl 2 | REVENUE
+ 92 | Lvl 3 | Custom Processing
+ 93 | Lvl 4 | Mixing fee
+ 94 | Lvl 4 | Packing Fees
+ 95 | Lvl 4 | Custom Processing - Other
+ 96 | Lvl 4 | Roasting Fees
+ 97 | Lvl 3 | Total Custom Processing
+ 98 | Lvl 3 | Discounts Allowed
+ 99 | Lvl 3 | Other Revenue
+100 | Lvl 3 | Returns and Allowances
+101 | Lvl 3 | Sales
+102 | Lvl 3 | Store Sales
+103 | Lvl 2 | Total REVENUE
+104 | Lvl 1 | Total Income
+105 | Lvl 1 | Cost of Goods Sold
+106 | Lvl 2 | Cost of Goods Sold
+107 | Lvl 3 | Discounts on Purchases
+108 | Lvl 3 | Inventory Write Off
+109 | Lvl 3 | Physical Inventory Variance
+110 | Lvl 3 | Cost of Goods Sold - Other
+111 | Lvl 2 | Total Cost of Goods Sold
+112 | Lvl 2 | Direct Labor
+113 | Lvl 3 | Applied DL
+114 | Lvl 3 | Bonus
+115 | Lvl 3 | Payroll Taxes
+116 | Lvl 3 | Temporary Labor
+117 | Lvl 3 | Direct Labor
+118 | Lvl 2 | Total Direct Labor
+119 | Lvl 2 | FACTORY OVERHEAD
+120 | Lvl 3 | Applied OH
+121 | Lvl 3 | Bonus
+122 | Lvl 3 | Building Repairs
+123 | Lvl 3 | Calibration & Certification
+124 | Lvl 3 | Cleaning Services
+125 | Lvl 3 | Consulting
+126 | Lvl 3 | Depreciation Expense
+127 | Lvl 3 | Equipment Rental
+128 | Lvl 3 | Equipment Repairs
+129 | Lvl 3 | Fire Protection
+130 | Lvl 3 | Fumigation
+131 | Lvl 3 | Janitorial Supplies
+132 | Lvl 3 | Lab Fees
+133 | Lvl 3 | Lease Payment
+134 | Lvl 3 | Licenses & Permits
+135 | Lvl 3 | Pallets
+136 | Lvl 3 | Payroll Expense
+137 | Lvl 4 | Payroll Taxes Production
+138 | Lvl 4 | Payroll Expense - Other
+139 | Lvl 4 | Salaries
+140 | Lvl 3 | Total Payroll Expense
+141 | Lvl 3 | Pest Control
+142 | Lvl 3 | Plate Charge
+143 | Lvl 3 | Production Supplies
+144 | Lvl 3 | Rent Expense
+145 | Lvl 3 | Repairs and Maintenance
+146 | Lvl 3 | Sales Tax/Use Tax
+147 | Lvl 3 | Tools & Instruments
+148 | Lvl 3 | Training and Seminars
+149 | Lvl 3 | Uniforms
+150 | Lvl 3 | Utilities
+151 | Lvl 3 | Validation Expenses
+152 | Lvl 3 | Workers Comp
+153 | Lvl 3 | FACTORY OVERHEAD - Other
+154 | Lvl 3 | Freight and Shipping Costs
+155 | Lvl 2 | Total FACTORY OVERHEAD
+156 | Lvl 1 | Total COGS
+157 | Lvl 1 | Gross Profit
+158 | Lvl 1 | Expense
+159 | Lvl 2 | ADMINISTRATION EXPENSES
+160 | Lvl 3 | Accounting Fees
+161 | Lvl 3 | Automobile Expense
+162 | Lvl 4 | Auto Repairs
+163 | Lvl 4 | Gasoline, parking & mileage
+164 | Lvl 4 | Registration
+165 | Lvl 4 | Automobile Expense - Other
+166 | Lvl 3 | Total Automobile Expense
+167 | Lvl 3 | Bad Debts Expense
+168 | Lvl 3 | Bank Service Charges
+169 | Lvl 3 | Bank Document Fees
+170 | Lvl 3 | Business Tax
+171 | Lvl 3 | Computer and Internet Expenses
+172 | Lvl 3 | Credit Card Service Charge
+173 | Lvl 3 | Donation
+174 | Lvl 3 | Dues and Subscriptions
+175 | Lvl 3 | Insurance Expense
+176 | Lvl 4 | General Liability
+177 | Lvl 4 | Property
+178 | Lvl 4 | Insurance Expense - Other
+179 | Lvl 4 | Vehicle Insurance
+180 | Lvl 3 | Total Insurance Expense
+181 | Lvl 3 | Legal
+182 | Lvl 3 | Licenses & Permits
+183 | Lvl 3 | Loan Processing Fees
+184 | Lvl 3 | Meals and Entertainment
+185 | Lvl 3 | Office Expenses
+186 | Lvl 3 | Payroll Expenses
+187 | Lvl 4 | Bonus
+188 | Lvl 4 | Payroll Processing Fees
+189 | Lvl 4 | Payroll Taxes - Admin
+190 | Lvl 4 | Salaries - Admin
+191 | Lvl 4 | Medical Expenses
+192 | Lvl 4 | Employee Benefits
+193 | Lvl 4 | Payroll Expenses - Other
+194 | Lvl 3 | Total Payroll Expenses
+195 | Lvl 3 | Penalty & fine
+196 | Lvl 3 | Property Taxes Paid
+197 | Lvl 3 | Printing & Reproduction
+198 | Lvl 3 | Security and Alarm System
+199 | Lvl 3 | Suspense
+200 | Lvl 3 | Storage Expense
+201 | Lvl 3 | State Tax
+202 | Lvl 3 | ADMINISTRATION EXPENSES - Other
+203 | Lvl 3 | Telephone Expense
+204 | Lvl 2 | Total ADMINISTRATION EXPENSES
+205 | Lvl 2 | SALES EXPENSES
+206 | Lvl 3 | Commissions
+207 | Lvl 3 | Domestic Shipping & Handling
+208 | Lvl 3 | EDI Fees
+209 | Lvl 3 | Export Shipping & Handling
+210 | Lvl 3 | Postage and Delivery Expense
+211 | Lvl 3 | Service Fee
+212 | Lvl 3 | Shipping Supplies
+213 | Lvl 3 | Trade Show/Promotion
+214 | Lvl 3 | SALES EXPENSES - Other
+215 | Lvl 3 | Travel Expense
+216 | Lvl 2 | Total SALES EXPENSES
+217 | Lvl 2 | Taxes
+218 | Lvl 1 | Total Expense
+219 | Lvl 1 | Net Ordinary Income
+220 | Lvl 1 | Other Income/Expense
+221 | Lvl 2 | Other Income
+222 | Lvl 3 | Foreign Currency Gain/Loss
+223 | Lvl 3 | Other Income
+224 | Lvl 2 | Total Other Income
+225 | Lvl 2 | Other Expense
+226 | Lvl 3 | Interest Expense
+227 | Lvl 3 | Loss(Gain) on disposal of Asset
+228 | Lvl 3 | Other Expense (adjustment)
+229 | Lvl 2 | Total Other Expense
+230 | Lvl 1 | Net Other Income
+231 | Lvl 1 | Net operating Income
+233 | Lvl 1 | Commission/Service Fee - Vietnam
+234 | Lvl 1 | Adjusted Net Income
+235 | Lvl 1 | Check
+238 | Lvl 1 | Per chị Khánh
+243 | Lvl 1 | EBITDA
+
+=== Summary ===
+  1 | A: FINANCIAL STATEMENT SUMMARY | B:                                          | D: 
+  2 | A: Month:               | B: 2026-09-01 00:00:00                      | D: 
+  4 | A: BALANCE SHEET        | B:                                          | D: 
+  5 | A:                      | B: ASSETS                                   | D: 
+  6 | A:                      | B: Current Assets                           | D: 
+  7 | A:                      | B: Checking/Savings                         | D: 
+  8 | A:                      | B: East West Bank -8078001859               | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"East West Bank -8078001859")
+  9 | A:                      | B: EWB Payroll 2725                         | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Ewb Payroll 2725")
+ 10 | A:                      | B: Fresno First Bank - 3743                 | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Fresno First Bank - 3743")
+ 11 | A:                      | B: Petty Cash                               | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Petty Cash")
+ 12 | A:                      | B: Total Checking/Savings                   | D: =SUM(D8:D11)
+ 13 | A:                      | B: Accounts Receivable                      | D: 
+ 14 | A:                      | B: Accounts Receivable                      | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Accounts Receivable")
+ 15 | A:                      | B: Allowance for Doubtful Accounts          | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Allowance For Doubtful Accounts")
+ 16 | A:                      | B: Total Accounts Receivable                | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Total Accounts Receivable")
+ 17 | A:                      | B: Other Current Assets                     | D: 
+ 18 | A:                      | B: Inventory Asset                          | D: 
+ 19 | A:                      | B: Inventory Clearing                       | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,5,BS!$Q$3:$Q$85,"Inventory Clearing")
+ 20 | A:                      | B: Work-in-Process                          | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,5,BS!$Q$3:$Q$85,"Work-In-Process")
+ 21 | A:                      | B: Inventory Asset                          | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,5,BS!$Q$3:$Q$85,"Inventory Asset")
+ 22 | A:                      | B: Total Inventory Asset                    | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Total Inventory Asset")
+ 23 | A:                      | B: Undeposited Funds                        | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Undeposited Funds")
+ 24 | A:                      | B: Pre-paid                                 | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Pre-Paid")
+ 25 | A:                      | B: Total Other Current Assets               | D: =SUM(D22:D24)
+ 26 | A:                      | B: Total Current Assets                     | D: =SUM(D12,D16,D25)
+ 27 | A:                      | B: Fixed Assets                             | D: 
+ 28 | A:                      | B: Accum. Depreciation - Equipment          | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Accum. Depreciation - Equipment")
+ 29 | A:                      | B: Accum. Depreciation - Furniture          | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Accum. Depreciation - Furniture")
+ 30 | A:                      | B: Accum. Depreciations                     | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Accum. Depreciations")
+ 31 | A:                      | B: Auto                                     | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Auto")
+ 32 | A:                      | B: Automation                               | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Automation")
+ 33 | A:                      | B: Building Improvements - 12368            | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Building Improvements - 12368")
+ 34 | A:                      | B: Building Improvements - 2628             | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Building Improvements - 2628")
+ 35 | A:                      | B: Computer                                 | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Computer")
+ 36 | A:                      | B: Construction in Progress                 | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Construction In Progress")
+ 37 | A:                      | B: Furniture and Equipment                  | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Furniture And Equipment")
+ 38 | A:                      | B: Office Equipment                         | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Office Equipment")
+ 39 | A:                      | B: Production Equipment                     | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Production Equipment")
+ 40 | A:                      | B: Total Fixed Assets                       | D: =SUM(D28:D39)
+ 41 | A:                      | B: Other Assets                             | D: 
+ 42 | A:                      | B: Deposit                                  | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Deposit")
+ 43 | A:                      | B: Employee Advance                         | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Employee Advance")
+ 44 | A:                      | B: Total Other Assets                       | D: =SUM(D42:D43)
+ 45 | A:                      | B: TOTAL ASSETS                             | D: =SUM(D26,D40,D44)
+ 46 | A:                      | B: LIABILITIES & EQUITY                     | D: 
+ 47 | A:                      | B: Liabilities                              | D: 
+ 48 | A:                      | B: Current Liabilities                      | D: 
+ 49 | A:                      | B: Accounts Payable                         | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Accounts Payable")
+ 50 | A:                      | B: Credit Cards                             | D: 
+ 51 | A:                      | B: Home Depot                               | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,5,BS!$Q$3:$Q$85,"Home Depot")
+ 52 | A:                      | B: Macy's                                   | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,5,BS!$Q$3:$Q$85,"Macy'S")
+ 53 | A:                      | B: Visa - 6188                              | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,5,BS!$Q$3:$Q$85,"Visa - 6188")
+ 54 | A:                      | B: VISA - 3240                              | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,5,BS!$Q$3:$Q$85,"Visa - 3240")
+ 55 | A:                      | B: Total Credit Cards                       | D: =SUM(D51:D54)
+ 56 | A:                      | B: Other Current Liabilities                | D: 
+ 57 | A:                      | B: Accrued Expenses                         | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,5,BS!$Q$3:$Q$85,"Accrued Expenses")
+ 58 | A:                      | B: Installment Loan                         | D: 
+ 59 | A:                      | B: Electric Forklift 7FBEU20                | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,6,BS!$Q$3:$Q$85,"Electric Forklift 7Fbeu20")
+ 60 | A:                      | B: Loan East West Bank -8078001859          | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,6,BS!$Q$3:$Q$85,"Loan East West Bank -8078001859")
+ 61 | A:                      | B: Toyota                                   | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,6,BS!$Q$3:$Q$85,"Toyota")
+ 62 | A:                      | B: Total Installment Loan                   | D: =SUM(D59:D61)
+ 63 | A:                      | B: Payroll Liabilities                      | D: 
+ 64 | A:                      | B: Payroll Liabilities - Other              | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,6,BS!$Q$3:$Q$85,"Payroll Liabilities - Other")
+ 65 | A:                      | B: Payroll Accrual                          | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,6,BS!$Q$3:$Q$85,"Payroll Accrual")
+ 66 | A:                      | B: Total Payroll Liabilities                | D: =SUM(D64:D65)
+ 67 | A:                      | B: Total Other Current Liabilities          | D: =SUM(D57,D62,D66)
+ 68 | A:                      | B: Total Current Liabilities                | D: =SUM(D49,D55,D67)
+ 69 | A:                      | B: Long Term Liabilities                    | D: 
+ 70 | A:                      | B: Advance from Danway Holdings Lt          | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Advance From Danway Holdings Lt")
+ 71 | A:                      | B: East West Loan # 332001332               | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"East West Loan # 332001332")
+ 72 | A:                      | B: East West Loan # 355001220               | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"East West Loan # 355001220")
+ 73 | A:                      | B: Loan from Shareholders                   | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Loan From Shareholders")
+ 74 | A:                      | B: Loan Payable - Alex Do                   | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Loan Payable - Alex Do")
+ 75 | A:                      | B: Loan Payable - DDFH                      | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Loan Payable - Ddfh")
+ 76 | A:                      | B: Loan Payable - Danways                   | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Loan Payable - Danways")
+ 77 | A:                      | B: Loan Payable - DDF Hongkong              | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Loan Payable - Ddf Hongkong")
+ 78 | A:                      | B: Loan Payable - DDP, LLC                  | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Loan Payable - Ddp, Llc")
+ 79 | A:                      | B: Loan Payable - Horseshoe                 | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Loan Payable - Horseshoe")
+ 80 | A:                      | B: Loan Payable- Dan D Pistachio            | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Loan Payable- Dan D Pistachio")
+ 81 | A:                      | B: Loan Payable - Dan-D-Foods- Ltd          | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Loan Payable - Dan-D-Foods- Ltd")
+ 82 | A:                      | B: Loan Payable - Danway                    | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Loan Payable - Danway")
+ 83 | A:                      | B: Loan Payable- Dan D Pistachio            | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,4,BS!$Q$3:$Q$85,"Loan Payable- Dan D Pistachio")
+ 84 | A:                      | B: Total Long Term Liabilities              | D: =SUM(D70:D83)
+ 85 | A:                      | B: Total Liabilities                        | D: =SUM(D68,D84)
+ 86 | A:                      | B: Equity                                   | D: 
+ 87 | A:                      | B: Capital Stock                            | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Capital Stock")
+ 88 | A:                      | B: Members Equity                           | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Members Equity")
+ 89 | A:                      | B: Retained Earnings                        | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Retained Earnings")
+ 90 | A:                      | B: Net Income                               | D: =SUMIFS(BS!$K$3:$K$85,BS!$P$3:$P$85,3,BS!$Q$3:$Q$85,"Net Income")
+ 91 | A:                      | B: Total Equity                             | D: =SUM(D87:D90)
+ 92 | A:                      | B: TOTAL LIABILITIES & EQUITY               | D: =SUM(D85,D91)
+ 94 | A: PROFIT AND LOSS      | B:                                          | D: 
+ 95 | A:                      | B: PROFIT AND LOSS                          | D: 
+ 96 | A:                      | B: Income                                   | D: 
+ 97 | A:                      | B: REVENUE                                  | D: 
+ 98 | A:                      | B: Custom Processing                        | D: 
+ 99 | A:                      | B: Mixing fee                               | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Mixing Fee")
+100 | A:                      | B: Packing Fees                             | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Packing Fees")
+101 | A:                      | B: Roasting Fees                            | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Roasting Fees")
+102 | A:                      | B: Custom Processing - Other                | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Custom Processing - Other")
+103 | A:                      | B: Total Custom Processing                  | D: =SUM(D99:D102)
+104 | A:                      | B: Discounts Allowed                        | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Discounts Allowed")
+105 | A:                      | B: Other Revenue                            | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Other Revenue")
+106 | A:                      | B: Returns and Allowances                   | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Returns And Allowances")
+107 | A:                      | B: Sales                                    | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Sales")
+108 | A:                      | B: Store Sales                              | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Store Sales")
+109 | A:                      | B: Total REVENUE                            | D: =SUM(D103:D108)
+110 | A:                      | B: Total Income                             | D: =SUM(D109)
+111 | A:                      | B: Cost of Goods Sold                       | D: 
+112 | A:                      | B: Cost of Goods Sold                       | D: 
+113 | A:                      | B: Discounts on Purchases                   | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Discounts On Purchases")
+114 | A:                      | B: Inventory Write Off                      | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Inventory Write Off")
+115 | A:                      | B: Physical Inventory Variance              | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Physical Inventory Variance")
+116 | A:                      | B: Cost of Goods Sold - Other               | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Cost Of Goods Sold - Other")
+117 | A:                      | B: Total Cost of Goods Sold                 | D: =SUM(D113:D116)
+118 | A:                      | B: Direct Labor                             | D: 
+119 | A:                      | B: Applied DL                               | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Applied Dl")
+120 | A:                      | B: Bonus                                    | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Bonus")
+121 | A:                      | B: Payroll Taxes                            | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Payroll Taxes")
+122 | A:                      | B: Temporary Labor                          | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Temporary Labor")
+123 | A:                      | B: Direct Labor                             | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Direct Labor")
+124 | A:                      | B: Total Direct Labor                       | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Total Direct Labor")
+125 | A:                      | B: FACTORY OVERHEAD                         | D: 
+126 | A:                      | B: Applied OH                               | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Applied Oh")
+127 | A:                      | B: Bonus                                    | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Bonus")
+128 | A:                      | B: Building Repairs                         | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Building Repairs")
+129 | A:                      | B: Calibration & Certification              | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Calibration & Certification")
+130 | A:                      | B: Cleaning Services                        | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Cleaning Services")
+131 | A:                      | B: Consulting                               | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Consulting")
+132 | A:                      | B: Depreciation Expense                     | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Depreciation Expense")
+133 | A:                      | B: Equipment Rental                         | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Equipment Rental")
+134 | A:                      | B: Equipment Repairs                        | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Equipment Repairs")
+135 | A:                      | B: Fire Protection                          | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Fire Protection")
+136 | A:                      | B: Fumigation                               | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Fumigation")
+137 | A:                      | B: Janitorial Supplies                      | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Janitorial Supplies")
+138 | A:                      | B: Lab Fees                                 | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Lab Fees")
+139 | A:                      | B: Lease Payment                            | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Lease Payment")
+140 | A:                      | B: Licenses & Permits                       | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Licenses & Permits")
+141 | A:                      | B: Pallets                                  | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Pallets")
+142 | A:                      | B: Payroll Expense                          | D: 
+143 | A:                      | B: Payroll Taxes Production                 | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Payroll Taxes Production")
+144 | A:                      | B: Payroll Expense - Other                  | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Payroll Expense - Other")
+145 | A:                      | B: Salaries                                 | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Salaries")
+146 | A:                      | B: Total Payroll Expense                    | D: =SUM(D143:D145)
+147 | A:                      | B: Pest Control                             | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Pest Control")
+148 | A:                      | B: Plate Charge                             | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Plate Charge")
+149 | A:                      | B: Production Supplies                      | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Production Supplies")
+150 | A:                      | B: Rent Expense                             | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Rent Expense")
+151 | A:                      | B: Repairs and Maintenance                  | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Repairs And Maintenance")
+152 | A:                      | B: Sales Tax/Use Tax                        | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Sales Tax/Use Tax")
+153 | A:                      | B: Tools & Instruments                      | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Tools & Instruments")
+154 | A:                      | B: Training and Seminars                    | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Training And Seminars")
+155 | A:                      | B: Uniforms                                 | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Uniforms")
+156 | A:                      | B: Utilities                                | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Utilities")
+157 | A:                      | B: Validation Expenses                      | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Validation Expenses")
+158 | A:                      | B: Workers Comp                             | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Workers Comp")
+159 | A:                      | B: FACTORY OVERHEAD - Other                 | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Factory Overhead - Other")
+160 | A:                      | B: Freight and Shipping Costs               | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Freight And Shipping Costs")
+161 | A:                      | B: Total FACTORY OVERHEAD                   | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Total Factory Overhead")
+162 | A:                      | B: Total COGS                               | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Total Cogs")
+163 | A:                      | B: Gross Profit                             | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Gross Profit")
+164 | A:                      | B: Expense                                  | D: 
+165 | A:                      | B: ADMINISTRATION EXPENSES                  | D: 
+166 | A:                      | B: Accounting Fees                          | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Accounting Fees")
+167 | A:                      | B: Automobile Expense                       | D: 
+168 | A:                      | B: Auto Repairs                             | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Auto Repairs")
+169 | A:                      | B: Gasoline, parking & mileage              | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Gasoline, Parking & Mileage")
+170 | A:                      | B: Registration                             | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Registration")
+171 | A:                      | B: Automobile Expense - Other               | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Automobile Expense - Other")
+172 | A:                      | B: Total Automobile Expense                 | D: =SUM(D168:D171)
+173 | A:                      | B: Bad Debts Expense                        | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Bad Debts Expense")
+174 | A:                      | B: Bank Service Charges                     | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Bank Service Charges")
+175 | A:                      | B: Bank Document Fees                       | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Bank Document Fees")
+176 | A:                      | B: Business Tax                             | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Business Tax")
+177 | A:                      | B: Computer and Internet Expenses           | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Computer And Internet Expenses")
+178 | A:                      | B: Credit Card Service Charge               | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Credit Card Service Charge")
+179 | A:                      | B: Donation                                 | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Donation")
+180 | A:                      | B: Dues and Subscriptions                   | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Dues And Subscriptions")
+181 | A:                      | B: Insurance Expense                        | D: 
+182 | A:                      | B: General Liability                        | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"General Liability")
+183 | A:                      | B: Property                                 | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Property")
+184 | A:                      | B: Insurance Expense - Other                | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Insurance Expense - Other")
+185 | A:                      | B: Vehicle Insurance                        | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Vehicle Insurance")
+186 | A:                      | B: Total Insurance Expense                  | D: =SUM(D182:D185)
+187 | A:                      | B: Legal                                    | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Legal")
+188 | A:                      | B: Licenses & Permits                       | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Licenses & Permits")
+189 | A:                      | B: Loan Processing Fees                     | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Loan Processing Fees")
+190 | A:                      | B: Meals and Entertainment                  | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Meals And Entertainment")
+191 | A:                      | B: Office Expenses                          | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Office Expenses")
+192 | A:                      | B: Payroll Expenses                         | D: 
+193 | A:                      | B: Bonus                                    | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Bonus")
+194 | A:                      | B: Payroll Processing Fees                  | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Payroll Processing Fees")
+195 | A:                      | B: Payroll Taxes - Admin                    | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Payroll Taxes - Admin")
+196 | A:                      | B: Salaries - Admin                         | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Salaries - Admin")
+197 | A:                      | B: Medical Expenses                         | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Medical Expenses")
+198 | A:                      | B: Employee Benefits                        | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Employee Benefits")
+199 | A:                      | B: Payroll Expenses - Other                 | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Payroll Expenses - Other")
+200 | A:                      | B: Total Payroll Expenses                   | D: =SUM(D193:D199)
+201 | A:                      | B: Penalty & fine                           | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Penalty & Fine")
+202 | A:                      | B: Property Taxes Paid                      | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Property Taxes Paid")
+203 | A:                      | B: Printing & Reproduction                  | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Printing & Reproduction")
+204 | A:                      | B: Security and Alarm System                | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Security And Alarm System")
+205 | A:                      | B: Suspense                                 | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Suspense")
+206 | A:                      | B: Storage Expense                          | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Storage Expense")
+207 | A:                      | B: State Tax                                | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"State Tax")
+208 | A:                      | B: ADMINISTRATION EXPENSES - Other          | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Administration Expenses - Other")
+209 | A:                      | B: Telephone Expense                        | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Telephone Expense")
+210 | A:                      | B: Total ADMINISTRATION EXPENSES            | D: =SUM(D166,D172,D173,D174,D175,D176,D177,D178,D179,D180,D186,D187,D188,D189,D190,D191,D200,D201,D202,D203,D204,D205,D206,D207,D208,D209)
+211 | A:                      | B: SALES EXPENSES                           | D: 
+212 | A:                      | B: Commissions                              | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Commissions")
+213 | A:                      | B: Domestic Shipping & Handling             | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Domestic Shipping & Handling")
+214 | A:                      | B: EDI Fees                                 | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Edi Fees")
+215 | A:                      | B: Export Shipping & Handling               | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Export Shipping & Handling")
+216 | A:                      | B: Postage and Delivery Expense             | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Postage And Delivery Expense")
+217 | A:                      | B: Service Fee                              | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Service Fee")
+218 | A:                      | B: Shipping Supplies                        | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Shipping Supplies")
+219 | A:                      | B: Trade Show/Promotion                     | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Trade Show/Promotion")
+220 | A:                      | B: SALES EXPENSES - Other                   | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Sales Expenses - Other")
+221 | A:                      | B: Travel Expense                           | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Travel Expense")
+222 | A:                      | B: Total SALES EXPENSES                     | D: =SUM(D212:D221)
+223 | A:                      | B: Taxes                                    | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Taxes")
+224 | A:                      | B: Total Expense                            | D: =SUM(D210,D222,D223)
+225 | A:                      | B: Net Ordinary Income                      | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Net Ordinary Income")
+226 | A:                      | B: Other Income/Expense                     | D: 
+227 | A:                      | B: Other Income                             | D: 
+228 | A:                      | B: Foreign Currency Gain/Loss               | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Foreign Currency Gain/Loss")
+229 | A:                      | B: Other Income                             | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Other Income")
+230 | A:                      | B: Total Other Income                       | D: =SUM(D228:D229)
+231 | A:                      | B: Other Expense                            | D: 
+232 | A:                      | B: Interest Expense                         | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Interest Expense")
+233 | A:                      | B: Loss(Gain) on disposal of Asset          | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Loss(Gain) On Disposal Of Asset")
+234 | A:                      | B: Other Expense (adjustment)               | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Other Expense (Adjustment)")
+235 | A:                      | B: Total Other Expense                      | D: =SUM(D232:D234)
+236 | A:                      | B: Net Other Income                         | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Net Other Income")
+237 | A:                      | B: Net operating Income                     | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Net Operating Income")
+239 | A:                      | B: Commission/Service Fee - Vietnam         | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Commission/Service Fee - Vietnam")
+240 | A:                      | B: Adjusted Net Income                      | D: =SUMIFS(PL!$L$3:$L$102,PL!$Q$3:$Q$102,"Adjusted Net Income")

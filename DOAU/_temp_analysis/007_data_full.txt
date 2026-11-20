@@ -1,0 +1,244 @@
+  1 | Lvl: 1 | Name: FX | G: ='[1]NCI & FX'!C47
+  2 | Lvl: 1 | Name: BALANCE SHEET | G: None
+  3 | Lvl: None | Name: None | G: 2025-01-01 00:00:00
+  4 | Lvl: 1 | Name: ASSETS | G: None
+  5 | Lvl: 2 | Name: Current Assets | G: None
+  6 | Lvl: 3 | Name: Checking/Savings | G: None
+  7 | Lvl: 4 | Name: East West Bank -8078001859 | G: 250121.92
+  8 | Lvl: 4 | Name: EWB Payroll 2725 | G: 505.76
+  9 | Lvl: 4 | Name: Fresno First Bank - 3743 | G: 23440.48
+ 10 | Lvl: 4 | Name: Petty Cash | G: 239.9
+ 11 | Lvl: 3 | Name: Total Checking/Savings | G: =ROUND(SUM(G6:G10),5)
+ 12 | Lvl: 3 | Name: Accounts Receivable | G: None
+ 13 | Lvl: 4 | Name: Accounts Receivable | G: 4283831.33
+ 14 | Lvl: 4 | Name: Allowance for Doubtful Accounts | G: None
+ 15 | Lvl: 3 | Name: Total Accounts Receivable | G: =ROUND(SUM(G12:G13),5)
+ 16 | Lvl: 3 | Name: Other Current Assets | G: None
+ 17 | Lvl: 4 | Name: Inventory Asset | G: None
+ 18 | Lvl: 5 | Name: Inventory Clearing | G: 14324.27
+ 19 | Lvl: 5 | Name: Inventory Asset | G: 3880304.97
+ 20 | Lvl: 4 | Name: Total Inventory Asset | G: =ROUND(SUM(G17:G19),5)
+ 21 | Lvl: 4 | Name: Undeposited Funds | G: None
+ 22 | Lvl: 4 | Name: Pre-paid | G: 85670.41
+ 23 | Lvl: 3 | Name: Total Other Current Assets | G: =ROUND(G16+SUM(G20:G22),5)
+ 24 | Lvl: 2 | Name: Total Current Assets | G: =ROUND(G5+G11+G15+G23,5)
+ 25 | Lvl: 2 | Name: Fixed Assets | G: None
+ 26 | Lvl: 3 | Name: Accum. Depreciation - Equipment | G: -162648
+ 27 | Lvl: 3 | Name: Accum. Depreciation - Furniture | G: -18636
+ 28 | Lvl: 3 | Name: Accum. Depreciations | G: -3464061.54
+ 29 | Lvl: 3 | Name: Auto | G: 195389.91
+ 30 | Lvl: 3 | Name: Automation | G: 494022.74
+ 31 | Lvl: 3 | Name: Building Improvements - 12368 | G: 30988.55
+ 32 | Lvl: 3 | Name: Building Improvements - 2628 | G: 736826.42
+ 33 | Lvl: 3 | Name: Computer | G: 8320.32
+ 34 | Lvl: 3 | Name: Construction in Progress | G: 1558071.71
+ 35 | Lvl: 3 | Name: Furniture and Equipment | G: 63954.16
+ 36 | Lvl: 3 | Name: Office Equipment | G: 59717.64
+ 37 | Lvl: 3 | Name: Production Equipment | G: 3579867.47
+ 38 | Lvl: 2 | Name: Total Fixed Assets | G: =ROUND(SUM(G25:G37),5)
+ 39 | Lvl: 2 | Name: Other Assets | G: None
+ 40 | Lvl: 3 | Name: Deposit | G: 101551.61
+ 41 | Lvl: 3 | Name: Employee Advance | G: 1609.96
+ 42 | Lvl: 2 | Name: Total Other Assets | G: =ROUND(SUM(G39:G41),5)
+ 43 | Lvl: 1 | Name: TOTAL ASSETS | G: =ROUND(G4+G24+G38+G42,5)
+ 44 | Lvl: 1 | Name: LIABILITIES & EQUITY | G: None
+ 45 | Lvl: 2 | Name: Liabilities | G: None
+ 46 | Lvl: 3 | Name: Current Liabilities | G: None
+ 47 | Lvl: 4 | Name: Accounts Payable | G: 2777741.46
+ 48 | Lvl: 4 | Name: Credit Cards | G: None
+ 49 | Lvl: 5 | Name: Home Depot | G: 2340.8
+ 50 | Lvl: 5 | Name: Macy's | G: 218.84
+ 51 | Lvl: 5 | Name: VISA - 7025 | G: 5653.01
+ 52 | Lvl: 4 | Name: Total Credit Cards | G: =ROUND(SUM(G48:G51),5)
+ 53 | Lvl: 4 | Name: Other Current Liabilities | G: None
+ 54 | Lvl: 5 | Name: Accrued Expenses | G: 33640.25
+ 55 | Lvl: 5 | Name: Installment Loan | G: None
+ 56 | Lvl: 6 | Name: Electric Forklift 7FBEU20 | G: 374.2
+ 57 | Lvl: 6 | Name: Forklift Battery | G: None
+ 58 | Lvl: 6 | Name: Toyota | G: 223.07
+ 59 | Lvl: 5 | Name: Total Installment Loan | G: =ROUND(SUM(G56:G58),5)
+ 60 | Lvl: 5 | Name: Payroll Liabilities | G: None
+ 61 | Lvl: 6 | Name: Payroll Liabilities - Other | G: None
+ 62 | Lvl: 6 | Name: Payroll Accrual | G: 106157.62
+ 63 | Lvl: 5 | Name: Total Payroll Liabilities | G: =ROUND(SUM(G60:G62),5)
+ 64 | Lvl: 4 | Name: Total Other Current Liabilities | G: =ROUND(SUM(G53:G54)+G59+G63,5)
+ 65 | Lvl: 3 | Name: Total Current Liabilities | G: =ROUND(G47+G52+G64,5)
+ 66 | Lvl: 3 | Name: Long Term Liabilities | G: None
+ 67 | Lvl: 4 | Name: Advance from Danway Holdings Lt | G: None
+ 68 | Lvl: 4 | Name: East West Loan # 332001332 | G: 500000
+ 69 | Lvl: 4 | Name: East West Loan # 355001220 | G: 1500000
+ 70 | Lvl: 4 | Name: Loan from Shareholders | G: None
+ 71 | Lvl: 4 | Name: Loan Payable - Alex Do | G: None
+ 72 | Lvl: 4 | Name: Loan Payable - DDFH | G: 1277610.4
+ 73 | Lvl: 4 | Name: Loan Payable - Danways | G: 1820000
+ 74 | Lvl: 4 | Name: Loan Payable - DDF Hongkong | G: None
+ 75 | Lvl: 4 | Name: Loan Payable - DDP, LLC | G: 101075.63
+ 76 | Lvl: 4 | Name: Loan Payable - Horseshoe | G: None
+ 77 | Lvl: 3 | Name: Total Long Term Liabilities | G: =ROUND(SUM(G66:G76),5)
+ 78 | Lvl: 2 | Name: Total Liabilities | G: =ROUND(+G65+G77,5)
+ 79 | Lvl: 2 | Name: Equity | G: None
+ 80 | Lvl: 3 | Name: Capital Stock | G: 2000000
+ 81 | Lvl: 3 | Name: Members Equity | G: 1125172.4
+ 82 | Lvl: 3 | Name: Retained Earnings | G: 459960.9
+ 83 | Lvl: 3 | Name: Net Income | G: 13245.41
+ 84 | Lvl: 2 | Name: Total Equity | G: =ROUND(SUM(G79:G83),5)
+ 85 | Lvl: 1 | Name: TOTAL LIABILITIES & EQUITY | G: =ROUND(G46+G78+G84,5)
+ 86 | Lvl: 1 | Name: Check | G: =G85-G43
+ 87 | Lvl: None | Name: None | G: None
+ 88 | Lvl: None | Name: None | G: None
+ 89 | Lvl: 1 | Name: PROFIT AND LOSS | G: 2025-01-01 00:00:00
+ 90 | Lvl: 1 | Name: Income | G: None
+ 91 | Lvl: 2 | Name: REVENUE | G: None
+ 92 | Lvl: 3 | Name: Custom Processing | G: None
+ 93 | Lvl: 4 | Name: Mixing fee | G: None
+ 94 | Lvl: 4 | Name: Packing Fees | G: 6914.4
+ 95 | Lvl: 4 | Name: Custom Processing - Other | G: None
+ 96 | Lvl: 4 | Name: Roasting Fees | G: 13513.5
+ 97 | Lvl: 3 | Name: Total Custom Processing | G: =ROUND(SUM(G92:G96),5)
+ 98 | Lvl: 3 | Name: Discounts Allowed | G: -1739.51
+ 99 | Lvl: 3 | Name: Other Revenue | G: 19655.33
+100 | Lvl: 3 | Name: Returns and Allowances | G: None
+101 | Lvl: 3 | Name: Sales | G: 1744525.28
+102 | Lvl: 3 | Name: Store Sales | G: 776.97
+103 | Lvl: 2 | Name: Total REVENUE | G: =ROUND(G91+SUM(G97:G102),5)
+104 | Lvl: 1 | Name: Total Income | G: =ROUND(G90+G103,5)
+105 | Lvl: 1 | Name: Cost of Goods Sold | G: None
+106 | Lvl: 2 | Name: Cost of Goods Sold | G: None
+107 | Lvl: 3 | Name: Discounts on Purchases | G: None
+108 | Lvl: 3 | Name: Inventory Write Off | G: None
+109 | Lvl: 3 | Name: Physical Inventory Variance | G: None
+110 | Lvl: 3 | Name: Cost of Goods Sold - Other | G: 1360783.61
+111 | Lvl: 2 | Name: Total Cost of Goods Sold | G: =ROUND(SUM(G106:G110),5)
+112 | Lvl: 2 | Name: Direct Labor | G: None
+113 | Lvl: 3 | Name: Applied DL | G: None
+114 | Lvl: 3 | Name: Bonus | G: 300
+115 | Lvl: 3 | Name: Payroll Taxes | G: 10501.77
+116 | Lvl: 3 | Name: Temporary Labor | G: 6488.78
+117 | Lvl: 3 | Name: Direct Labor | G: 93349.4
+118 | Lvl: 2 | Name: Total Direct Labor | G: =ROUND(SUM(G112:G117),5)
+119 | Lvl: 2 | Name: FACTORY OVERHEAD | G: None
+120 | Lvl: 3 | Name: Applied OH | G: 0
+121 | Lvl: 3 | Name: Bonus | G: None
+122 | Lvl: 3 | Name: Building Repairs | G: 0
+123 | Lvl: 3 | Name: Calibration & Certification | G: 3026.93
+124 | Lvl: 3 | Name: Cleaning Services | G: 0
+125 | Lvl: 3 | Name: Consulting | G: 1042.46
+126 | Lvl: 3 | Name: Depreciation Expense | G: 33951.96
+127 | Lvl: 3 | Name: Equipment Rental | G: 0
+128 | Lvl: 3 | Name: Equipment Repairs | G: 309.75
+129 | Lvl: 3 | Name: Fire Protection | G: 0
+130 | Lvl: 3 | Name: Fumigation | G: 0
+131 | Lvl: 3 | Name: Janitorial Supplies | G: 4269.96
+132 | Lvl: 3 | Name: Lab Fees | G: 4384.25
+133 | Lvl: 3 | Name: Lease Payment | G: 1456.51
+134 | Lvl: 3 | Name: Licenses & Permits | G: None
+135 | Lvl: 3 | Name: Pallets | G: -1347
+136 | Lvl: 3 | Name: Payroll Expense | G: None
+137 | Lvl: 4 | Name: Payroll Taxes Production | G: 3785.69
+138 | Lvl: 4 | Name: Payroll Expense - Other | G: None
+139 | Lvl: 4 | Name: Salaries | G: 35154.28
+140 | Lvl: 3 | Name: Total Payroll Expense | G: =ROUND(SUM(G136:G139),5)
+141 | Lvl: 3 | Name: Pest Control | G: 1030
+142 | Lvl: 3 | Name: Plate Charge | G: 0
+143 | Lvl: 3 | Name: Production Supplies | G: 10426.79
+144 | Lvl: 3 | Name: Rent Expense | G: 25000
+145 | Lvl: 3 | Name: Repairs and Maintenance | G: 12547.21
+146 | Lvl: 3 | Name: Sales Tax/Use Tax | G: 0
+147 | Lvl: 3 | Name: Tools & Instruments | G: 0
+148 | Lvl: 3 | Name: Training and Seminars | G: 0
+149 | Lvl: 3 | Name: Uniforms | G: 2309.88
+150 | Lvl: 3 | Name: Utilities | G: 16668.52
+151 | Lvl: 3 | Name: Validation Expenses | G: 0
+152 | Lvl: 3 | Name: Workers Comp | G: 3187.5
+153 | Lvl: 3 | Name: FACTORY OVERHEAD - Other | G: 1154.26
+154 | Lvl: 3 | Name: Freight and Shipping Costs | G: 0
+155 | Lvl: 2 | Name: Total FACTORY OVERHEAD | G: =ROUND(SUM(G119:G135)+SUM(G140:G154),5)
+156 | Lvl: 1 | Name: Total COGS | G: =ROUND(G105+G111+G118+G155,5)
+157 | Lvl: 1 | Name: Gross Profit | G: =ROUND(G104-G156,5)
+158 | Lvl: 1 | Name: Expense | G: None
+159 | Lvl: 2 | Name: ADMINISTRATION EXPENSES | G: None
+160 | Lvl: 3 | Name: Accounting Fees | G: None
+161 | Lvl: 3 | Name: Automobile Expense | G: None
+162 | Lvl: 4 | Name: Auto Repairs | G: None
+163 | Lvl: 4 | Name: Gasoline, parking & mileage | G: 214.8
+164 | Lvl: 4 | Name: Registration | G: None
+165 | Lvl: 4 | Name: Automobile Expense - Other | G: None
+166 | Lvl: 3 | Name: Total Automobile Expense | G: =ROUND(SUM(G161:G165),5)
+167 | Lvl: 3 | Name: Bad Debts Expense | G: 0
+168 | Lvl: 3 | Name: Bank Service Charges | G: 355
+169 | Lvl: 3 | Name: Bank Document Fees | G: 0
+170 | Lvl: 3 | Name: Business Tax | G: 0
+171 | Lvl: 3 | Name: Computer and Internet Expenses | G: 2432.74
+172 | Lvl: 3 | Name: Credit Card Service Charge | G: 0
+173 | Lvl: 3 | Name: Donation | G: 0
+174 | Lvl: 3 | Name: Dues and Subscriptions | G: 0
+175 | Lvl: 3 | Name: Insurance Expense | G: None
+176 | Lvl: 4 | Name: General Liability | G: 3212.43
+177 | Lvl: 4 | Name: Property | G: 2862.76
+178 | Lvl: 4 | Name: Insurance Expense - Other | G: None
+179 | Lvl: 4 | Name: Vehicle Insurance | G: 653.1
+180 | Lvl: 3 | Name: Total Insurance Expense | G: =ROUND(SUM(G175:G179),5)
+181 | Lvl: 3 | Name: Legal | G: 0
+182 | Lvl: 3 | Name: Licenses & Permits | G: 287.22
+183 | Lvl: 3 | Name: Loan Processing Fees | G: 0
+184 | Lvl: 3 | Name: Meals and Entertainment | G: 1516.38
+185 | Lvl: 3 | Name: Office Expenses | G: 4158.38
+186 | Lvl: 3 | Name: Payroll Expenses | G: None
+187 | Lvl: 4 | Name: Bonus | G: None
+188 | Lvl: 4 | Name: Payroll Processing Fees | G: 2833.16
+189 | Lvl: 4 | Name: Payroll Taxes - Admin | G: 12049.4
+190 | Lvl: 4 | Name: Salaries - Admin | G: 39888.65
+191 | Lvl: 4 | Name: Medical Expenses | G: None
+192 | Lvl: 4 | Name: Employee Benefits | G: 829.18
+193 | Lvl: 4 | Name: Payroll Expenses - Other | G: None
+194 | Lvl: 3 | Name: Total Payroll Expenses | G: =ROUND(SUM(G186:G193),5)
+195 | Lvl: 3 | Name: Penalty & fine | G: 525.6
+196 | Lvl: 3 | Name: Property Taxes Paid | G: 0
+197 | Lvl: 3 | Name: Printing & Reproduction | G: 0
+198 | Lvl: 3 | Name: Security and Alarm System | G: 180.57
+199 | Lvl: 3 | Name: Suspense | G: 0
+200 | Lvl: 3 | Name: Storage Expense | G: 5715
+201 | Lvl: 3 | Name: State Tax | G: 0
+202 | Lvl: 3 | Name: ADMINISTRATION EXPENSES - Other | G: 223.81
+203 | Lvl: 3 | Name: Telephone Expense | G: 1379.44
+204 | Lvl: 2 | Name: Total ADMINISTRATION EXPENSES | G: =ROUND(SUM(G159:G160)+SUM(G166:G174)+SUM(G180:G185)+SUM(G194:G203),5)
+205 | Lvl: 2 | Name: SALES EXPENSES | G: None
+206 | Lvl: 3 | Name: Commissions | G: 800
+207 | Lvl: 3 | Name: Domestic Shipping & Handling | G: 23545.75
+208 | Lvl: 3 | Name: EDI Fees | G: 213.98
+209 | Lvl: 3 | Name: Export Shipping & Handling | G: 0
+210 | Lvl: 3 | Name: Postage and Delivery Expense | G: 198.84
+211 | Lvl: 3 | Name: Service Fee | G: 918.75
+212 | Lvl: 3 | Name: Shipping Supplies | G: 0
+213 | Lvl: 3 | Name: Trade Show/Promotion | G: 10562.5
+214 | Lvl: 3 | Name: SALES EXPENSES - Other | G: 0
+215 | Lvl: 3 | Name: Travel Expense | G: 0
+216 | Lvl: 2 | Name: Total SALES EXPENSES | G: =ROUND(SUM(G205:G215),5)
+217 | Lvl: 2 | Name: Taxes | G: 0
+218 | Lvl: 1 | Name: Total Expense | G: =ROUND(G158+G204+SUM(G216:G217),5)
+219 | Lvl: 1 | Name: Net Ordinary Income | G: =ROUND(G157-G218,5)
+220 | Lvl: 1 | Name: Other Income/Expense | G: None
+221 | Lvl: 2 | Name: Other Income | G: None
+222 | Lvl: 3 | Name: Foreign Currency Gain/Loss | G: None
+223 | Lvl: 3 | Name: Other Income | G: 2.61
+224 | Lvl: 2 | Name: Total Other Income | G: =ROUND(SUM(G221:G223),5)
+225 | Lvl: 2 | Name: Other Expense | G: None
+226 | Lvl: 3 | Name: Interest Expense | G: 25063.22
+227 | Lvl: 3 | Name: Loss(Gain) on disposal of Asset | G: None
+228 | Lvl: 3 | Name: Other Expense (adjustment) | G: None
+229 | Lvl: 2 | Name: Total Other Expense | G: =ROUND(SUM(G225:G228),5)
+230 | Lvl: 1 | Name: Net Other Income | G: =ROUND(G224-G229,5)
+231 | Lvl: 1 | Name: Net operating Income | G: =ROUND(G219+G230,5)
+232 | Lvl: None | Name: None | G: None
+233 | Lvl: 1 | Name: Commission/Service Fee - Vietnam | G: 0
+234 | Lvl: 1 | Name: Adjusted Net Income | G: =SUM(G231:G233)
+235 | Lvl: 1 | Name: Check | G: None
+236 | Lvl: None | Name: None | G: None
+237 | Lvl: None | Name: None | G: None
+238 | Lvl: 1 | Name: Per chị Khánh | G: 23695.59
+239 | Lvl: None | Name: None | G: None
+240 | Lvl: None | Name: None | G: None
+241 | Lvl: None | Name: None | G: None
+242 | Lvl: None | Name: None | G: None
+243 | Lvl: 1 | Name: EBITDA | G: =G234+G226+G126
+244 | Lvl: None | Name: None | G: =G243*G1/10^6-'[1]007-DOAU'!C160

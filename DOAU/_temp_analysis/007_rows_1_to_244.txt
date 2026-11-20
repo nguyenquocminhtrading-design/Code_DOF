@@ -1,0 +1,244 @@
+  1 | Col1 | FX                                         | G=='[1]NCI & FX'!C47
+  2 | Col1 | BALANCE SHEET                              | G=None
+  3 | Col0 |                                            | G=2025-01-01 00:00:00
+  4 | Col1 | ASSETS                                     | G=None
+  5 | Col2 | Current Assets                             | G=None
+  6 | Col3 | Checking/Savings                           | G=None
+  7 | Col4 | East West Bank -8078001859                 | G=250121.92
+  8 | Col4 | EWB Payroll 2725                           | G=505.76
+  9 | Col4 | Fresno First Bank - 3743                   | G=23440.48
+ 10 | Col4 | Petty Cash                                 | G=239.9
+ 11 | Col3 | Total Checking/Savings                     | G==ROUND(SUM(G6:G10),5)
+ 12 | Col3 | Accounts Receivable                        | G=None
+ 13 | Col4 | Accounts Receivable                        | G=4283831.33
+ 14 | Col4 | Allowance for Doubtful Accounts            | G=None
+ 15 | Col3 | Total Accounts Receivable                  | G==ROUND(SUM(G12:G13),5)
+ 16 | Col3 | Other Current Assets                       | G=None
+ 17 | Col4 | Inventory Asset                            | G=None
+ 18 | Col5 | Inventory Clearing                         | G=14324.27
+ 19 | Col5 | Inventory Asset                            | G=3880304.97
+ 20 | Col4 | Total Inventory Asset                      | G==ROUND(SUM(G17:G19),5)
+ 21 | Col4 | Undeposited Funds                          | G=None
+ 22 | Col4 | Pre-paid                                   | G=85670.41
+ 23 | Col3 | Total Other Current Assets                 | G==ROUND(G16+SUM(G20:G22),5)
+ 24 | Col2 | Total Current Assets                       | G==ROUND(G5+G11+G15+G23,5)
+ 25 | Col2 | Fixed Assets                               | G=None
+ 26 | Col3 | Accum. Depreciation - Equipment            | G=-162648
+ 27 | Col3 | Accum. Depreciation - Furniture            | G=-18636
+ 28 | Col3 | Accum. Depreciations                       | G=-3464061.54
+ 29 | Col3 | Auto                                       | G=195389.91
+ 30 | Col3 | Automation                                 | G=494022.74
+ 31 | Col3 | Building Improvements - 12368              | G=30988.55
+ 32 | Col3 | Building Improvements - 2628               | G=736826.42
+ 33 | Col3 | Computer                                   | G=8320.32
+ 34 | Col3 | Construction in Progress                   | G=1558071.71
+ 35 | Col3 | Furniture and Equipment                    | G=63954.16
+ 36 | Col3 | Office Equipment                           | G=59717.64
+ 37 | Col3 | Production Equipment                       | G=3579867.47
+ 38 | Col2 | Total Fixed Assets                         | G==ROUND(SUM(G25:G37),5)
+ 39 | Col2 | Other Assets                               | G=None
+ 40 | Col3 | Deposit                                    | G=101551.61
+ 41 | Col3 | Employee Advance                           | G=1609.96
+ 42 | Col2 | Total Other Assets                         | G==ROUND(SUM(G39:G41),5)
+ 43 | Col1 | TOTAL ASSETS                               | G==ROUND(G4+G24+G38+G42,5)
+ 44 | Col1 | LIABILITIES & EQUITY                       | G=None
+ 45 | Col2 | Liabilities                                | G=None
+ 46 | Col3 | Current Liabilities                        | G=None
+ 47 | Col4 | Accounts Payable                           | G=2777741.46
+ 48 | Col4 | Credit Cards                               | G=None
+ 49 | Col5 | Home Depot                                 | G=2340.8
+ 50 | Col5 | Macy's                                     | G=218.84
+ 51 | Col5 | VISA - 7025                                | G=5653.01
+ 52 | Col4 | Total Credit Cards                         | G==ROUND(SUM(G48:G51),5)
+ 53 | Col4 | Other Current Liabilities                  | G=None
+ 54 | Col5 | Accrued Expenses                           | G=33640.25
+ 55 | Col5 | Installment Loan                           | G=None
+ 56 | Col6 | Electric Forklift 7FBEU20                  | G=374.2
+ 57 | Col6 | Forklift Battery                           | G=None
+ 58 | Col6 | Toyota                                     | G=223.07
+ 59 | Col5 | Total Installment Loan                     | G==ROUND(SUM(G56:G58),5)
+ 60 | Col5 | Payroll Liabilities                        | G=None
+ 61 | Col6 | Payroll Liabilities - Other                | G=None
+ 62 | Col6 | Payroll Accrual                            | G=106157.62
+ 63 | Col5 | Total Payroll Liabilities                  | G==ROUND(SUM(G60:G62),5)
+ 64 | Col4 | Total Other Current Liabilities            | G==ROUND(SUM(G53:G54)+G59+G63,5)
+ 65 | Col3 | Total Current Liabilities                  | G==ROUND(G47+G52+G64,5)
+ 66 | Col3 | Long Term Liabilities                      | G=None
+ 67 | Col4 | Advance from Danway Holdings Lt            | G=None
+ 68 | Col4 | East West Loan # 332001332                 | G=500000
+ 69 | Col4 | East West Loan # 355001220                 | G=1500000
+ 70 | Col4 | Loan from Shareholders                     | G=None
+ 71 | Col4 | Loan Payable - Alex Do                     | G=None
+ 72 | Col4 | Loan Payable - DDFH                        | G=1277610.4
+ 73 | Col4 | Loan Payable - Danways                     | G=1820000
+ 74 | Col4 | Loan Payable - DDF Hongkong                | G=None
+ 75 | Col4 | Loan Payable - DDP, LLC                    | G=101075.63
+ 76 | Col4 | Loan Payable - Horseshoe                   | G=None
+ 77 | Col3 | Total Long Term Liabilities                | G==ROUND(SUM(G66:G76),5)
+ 78 | Col2 | Total Liabilities                          | G==ROUND(+G65+G77,5)
+ 79 | Col2 | Equity                                     | G=None
+ 80 | Col3 | Capital Stock                              | G=2000000
+ 81 | Col3 | Members Equity                             | G=1125172.4
+ 82 | Col3 | Retained Earnings                          | G=459960.9
+ 83 | Col3 | Net Income                                 | G=13245.41
+ 84 | Col2 | Total Equity                               | G==ROUND(SUM(G79:G83),5)
+ 85 | Col1 | TOTAL LIABILITIES & EQUITY                 | G==ROUND(G46+G78+G84,5)
+ 86 | Col1 | Check                                      | G==G85-G43
+ 87 | Col0 |                                            | G=None
+ 88 | Col0 |                                            | G=None
+ 89 | Col1 | PROFIT AND LOSS                            | G=2025-01-01 00:00:00
+ 90 | Col1 | Income                                     | G=None
+ 91 | Col2 | REVENUE                                    | G=None
+ 92 | Col3 | Custom Processing                          | G=None
+ 93 | Col4 | Mixing fee                                 | G=None
+ 94 | Col4 | Packing Fees                               | G=6914.4
+ 95 | Col4 | Custom Processing - Other                  | G=None
+ 96 | Col4 | Roasting Fees                              | G=13513.5
+ 97 | Col3 | Total Custom Processing                    | G==ROUND(SUM(G92:G96),5)
+ 98 | Col3 | Discounts Allowed                          | G=-1739.51
+ 99 | Col3 | Other Revenue                              | G=19655.33
+100 | Col3 | Returns and Allowances                     | G=None
+101 | Col3 | Sales                                      | G=1744525.28
+102 | Col3 | Store Sales                                | G=776.97
+103 | Col2 | Total REVENUE                              | G==ROUND(G91+SUM(G97:G102),5)
+104 | Col1 | Total Income                               | G==ROUND(G90+G103,5)
+105 | Col1 | Cost of Goods Sold                         | G=None
+106 | Col2 | Cost of Goods Sold                         | G=None
+107 | Col3 | Discounts on Purchases                     | G=None
+108 | Col3 | Inventory Write Off                        | G=None
+109 | Col3 | Physical Inventory Variance                | G=None
+110 | Col3 | Cost of Goods Sold - Other                 | G=1360783.61
+111 | Col2 | Total Cost of Goods Sold                   | G==ROUND(SUM(G106:G110),5)
+112 | Col2 | Direct Labor                               | G=None
+113 | Col3 | Applied DL                                 | G=None
+114 | Col3 | Bonus                                      | G=300
+115 | Col3 | Payroll Taxes                              | G=10501.77
+116 | Col3 | Temporary Labor                            | G=6488.78
+117 | Col3 | Direct Labor                               | G=93349.4
+118 | Col2 | Total Direct Labor                         | G==ROUND(SUM(G112:G117),5)
+119 | Col2 | FACTORY OVERHEAD                           | G=None
+120 | Col3 | Applied OH                                 | G=0
+121 | Col3 | Bonus                                      | G=None
+122 | Col3 | Building Repairs                           | G=0
+123 | Col3 | Calibration & Certification                | G=3026.93
+124 | Col3 | Cleaning Services                          | G=0
+125 | Col3 | Consulting                                 | G=1042.46
+126 | Col3 | Depreciation Expense                       | G=33951.96
+127 | Col3 | Equipment Rental                           | G=0
+128 | Col3 | Equipment Repairs                          | G=309.75
+129 | Col3 | Fire Protection                            | G=0
+130 | Col3 | Fumigation                                 | G=0
+131 | Col3 | Janitorial Supplies                        | G=4269.96
+132 | Col3 | Lab Fees                                   | G=4384.25
+133 | Col3 | Lease Payment                              | G=1456.51
+134 | Col3 | Licenses & Permits                         | G=None
+135 | Col3 | Pallets                                    | G=-1347
+136 | Col3 | Payroll Expense                            | G=None
+137 | Col4 | Payroll Taxes Production                   | G=3785.69
+138 | Col4 | Payroll Expense - Other                    | G=None
+139 | Col4 | Salaries                                   | G=35154.28
+140 | Col3 | Total Payroll Expense                      | G==ROUND(SUM(G136:G139),5)
+141 | Col3 | Pest Control                               | G=1030
+142 | Col3 | Plate Charge                               | G=0
+143 | Col3 | Production Supplies                        | G=10426.79
+144 | Col3 | Rent Expense                               | G=25000
+145 | Col3 | Repairs and Maintenance                    | G=12547.21
+146 | Col3 | Sales Tax/Use Tax                          | G=0
+147 | Col3 | Tools & Instruments                        | G=0
+148 | Col3 | Training and Seminars                      | G=0
+149 | Col3 | Uniforms                                   | G=2309.88
+150 | Col3 | Utilities                                  | G=16668.52
+151 | Col3 | Validation Expenses                        | G=0
+152 | Col3 | Workers Comp                               | G=3187.5
+153 | Col3 | FACTORY OVERHEAD - Other                   | G=1154.26
+154 | Col3 | Freight and Shipping Costs                 | G=0
+155 | Col2 | Total FACTORY OVERHEAD                     | G==ROUND(SUM(G119:G135)+SUM(G140:G154
+156 | Col1 | Total COGS                                 | G==ROUND(G105+G111+G118+G155,5)
+157 | Col1 | Gross Profit                               | G==ROUND(G104-G156,5)
+158 | Col1 | Expense                                    | G=None
+159 | Col2 | ADMINISTRATION EXPENSES                    | G=None
+160 | Col3 | Accounting Fees                            | G=None
+161 | Col3 | Automobile Expense                         | G=None
+162 | Col4 | Auto Repairs                               | G=None
+163 | Col4 | Gasoline, parking & mileage                | G=214.8
+164 | Col4 | Registration                               | G=None
+165 | Col4 | Automobile Expense - Other                 | G=None
+166 | Col3 | Total Automobile Expense                   | G==ROUND(SUM(G161:G165),5)
+167 | Col3 | Bad Debts Expense                          | G=0
+168 | Col3 | Bank Service Charges                       | G=355
+169 | Col3 | Bank Document Fees                         | G=0
+170 | Col3 | Business Tax                               | G=0
+171 | Col3 | Computer and Internet Expenses             | G=2432.74
+172 | Col3 | Credit Card Service Charge                 | G=0
+173 | Col3 | Donation                                   | G=0
+174 | Col3 | Dues and Subscriptions                     | G=0
+175 | Col3 | Insurance Expense                          | G=None
+176 | Col4 | General Liability                          | G=3212.43
+177 | Col4 | Property                                   | G=2862.76
+178 | Col4 | Insurance Expense - Other                  | G=None
+179 | Col4 | Vehicle Insurance                          | G=653.1
+180 | Col3 | Total Insurance Expense                    | G==ROUND(SUM(G175:G179),5)
+181 | Col3 | Legal                                      | G=0
+182 | Col3 | Licenses & Permits                         | G=287.22
+183 | Col3 | Loan Processing Fees                       | G=0
+184 | Col3 | Meals and Entertainment                    | G=1516.38
+185 | Col3 | Office Expenses                            | G=4158.38
+186 | Col3 | Payroll Expenses                           | G=None
+187 | Col4 | Bonus                                      | G=None
+188 | Col4 | Payroll Processing Fees                    | G=2833.16
+189 | Col4 | Payroll Taxes - Admin                      | G=12049.4
+190 | Col4 | Salaries - Admin                           | G=39888.65
+191 | Col4 | Medical Expenses                           | G=None
+192 | Col4 | Employee Benefits                          | G=829.18
+193 | Col4 | Payroll Expenses - Other                   | G=None
+194 | Col3 | Total Payroll Expenses                     | G==ROUND(SUM(G186:G193),5)
+195 | Col3 | Penalty & fine                             | G=525.6
+196 | Col3 | Property Taxes Paid                        | G=0
+197 | Col3 | Printing & Reproduction                    | G=0
+198 | Col3 | Security and Alarm System                  | G=180.57
+199 | Col3 | Suspense                                   | G=0
+200 | Col3 | Storage Expense                            | G=5715
+201 | Col3 | State Tax                                  | G=0
+202 | Col3 | ADMINISTRATION EXPENSES - Other            | G=223.81
+203 | Col3 | Telephone Expense                          | G=1379.44
+204 | Col2 | Total ADMINISTRATION EXPENSES              | G==ROUND(SUM(G159:G160)+SUM(G166:G174
+205 | Col2 | SALES EXPENSES                             | G=None
+206 | Col3 | Commissions                                | G=800
+207 | Col3 | Domestic Shipping & Handling               | G=23545.75
+208 | Col3 | EDI Fees                                   | G=213.98
+209 | Col3 | Export Shipping & Handling                 | G=0
+210 | Col3 | Postage and Delivery Expense               | G=198.84
+211 | Col3 | Service Fee                                | G=918.75
+212 | Col3 | Shipping Supplies                          | G=0
+213 | Col3 | Trade Show/Promotion                       | G=10562.5
+214 | Col3 | SALES EXPENSES - Other                     | G=0
+215 | Col3 | Travel Expense                             | G=0
+216 | Col2 | Total SALES EXPENSES                       | G==ROUND(SUM(G205:G215),5)
+217 | Col2 | Taxes                                      | G=0
+218 | Col1 | Total Expense                              | G==ROUND(G158+G204+SUM(G216:G217),5)
+219 | Col1 | Net Ordinary Income                        | G==ROUND(G157-G218,5)
+220 | Col1 | Other Income/Expense                       | G=None
+221 | Col2 | Other Income                               | G=None
+222 | Col3 | Foreign Currency Gain/Loss                 | G=None
+223 | Col3 | Other Income                               | G=2.61
+224 | Col2 | Total Other Income                         | G==ROUND(SUM(G221:G223),5)
+225 | Col2 | Other Expense                              | G=None
+226 | Col3 | Interest Expense                           | G=25063.22
+227 | Col3 | Loss(Gain) on disposal of Asset            | G=None
+228 | Col3 | Other Expense (adjustment)                 | G=None
+229 | Col2 | Total Other Expense                        | G==ROUND(SUM(G225:G228),5)
+230 | Col1 | Net Other Income                           | G==ROUND(G224-G229,5)
+231 | Col1 | Net operating Income                       | G==ROUND(G219+G230,5)
+232 | Col0 |                                            | G=None
+233 | Col1 | Commission/Service Fee - Vietnam           | G=0
+234 | Col1 | Adjusted Net Income                        | G==SUM(G231:G233)
+235 | Col1 | Check                                      | G=None
+236 | Col0 |                                            | G=None
+237 | Col0 |                                            | G=None
+238 | Col1 | Per chị Khánh                              | G=23695.59
+239 | Col0 |                                            | G=None
+240 | Col0 |                                            | G=None
+241 | Col0 |                                            | G=None
+242 | Col0 |                                            | G=None
+243 | Col1 | EBITDA                                     | G==G234+G226+G126
+244 | Col0 |                                            | G==G243*G1/10^6-'[1]007-DOAU'!C160

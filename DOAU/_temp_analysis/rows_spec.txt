@@ -1,0 +1,234 @@
+r=  1 | lvl=1 | FINANCIAL STATEMENT SUMMARY         | TITLE        | 
+r=  2 | lvl=1 | BALANCE SHEET                       | TITLE        | 
+r=  3 | lvl=0 |                                     | HEADER_MONTH | 
+r=  4 | lvl=1 | ASSETS                              | HEADER       | 
+r=  5 | lvl=2 | Current Assets                      | HEADER       | 
+r=  6 | lvl=3 | Checking/Savings                    | HEADER       | 
+r=  7 | lvl=4 | East West Bank -8078001859          | BS_SUMIFS    | 
+r=  8 | lvl=4 | EWB Payroll 2725                    | BS_SUMIFS    | 
+r=  9 | lvl=4 | Fresno First Bank - 3743            | BS_SUMIFS    | 
+r= 10 | lvl=4 | Petty Cash                          | BS_SUMIFS    | 
+r= 11 | lvl=3 | Total Checking/Savings              | FORMULA      | =ROUND(SUM(D6:D10),5)
+r= 12 | lvl=3 | Accounts Receivable                 | HEADER       | 
+r= 13 | lvl=4 | Accounts Receivable                 | BS_SUMIFS    | 
+r= 14 | lvl=4 | Allowance for Doubtful Accounts     | BS_SUMIFS    | 
+r= 15 | lvl=3 | Total Accounts Receivable           | FORMULA      | =ROUND(SUM(D12:D13),5)
+r= 16 | lvl=3 | Other Current Assets                | HEADER       | 
+r= 17 | lvl=4 | Inventory Asset                     | HEADER       | 
+r= 18 | lvl=5 | Inventory Clearing                  | BS_SUMIFS    | 
+r= 19 | lvl=5 | Inventory Asset                     | BS_SUMIFS    | 
+r= 20 | lvl=4 | Total Inventory Asset               | FORMULA      | =ROUND(SUM(D17:D19),5)
+r= 21 | lvl=4 | Undeposited Funds                   | BS_SUMIFS    | 
+r= 22 | lvl=4 | Pre-paid                            | BS_SUMIFS    | 
+r= 23 | lvl=3 | Total Other Current Assets          | FORMULA      | =ROUND(D16+SUM(D20:D22),5)
+r= 24 | lvl=2 | Total Current Assets                | FORMULA      | =ROUND(D5+D11+D15+D23,5)
+r= 25 | lvl=2 | Fixed Assets                        | HEADER       | 
+r= 26 | lvl=3 | Accum. Depreciation - Equipment     | BS_SUMIFS    | 
+r= 27 | lvl=3 | Accum. Depreciation - Furniture     | BS_SUMIFS    | 
+r= 28 | lvl=3 | Accum. Depreciations                | BS_SUMIFS    | 
+r= 29 | lvl=3 | Auto                                | BS_SUMIFS    | 
+r= 30 | lvl=3 | Automation                          | BS_SUMIFS    | 
+r= 31 | lvl=3 | Building Improvements - 12368       | BS_SUMIFS    | 
+r= 32 | lvl=3 | Building Improvements - 2628        | BS_SUMIFS    | 
+r= 33 | lvl=3 | Computer                            | BS_SUMIFS    | 
+r= 34 | lvl=3 | Construction in Progress            | BS_SUMIFS    | 
+r= 35 | lvl=3 | Furniture and Equipment             | BS_SUMIFS    | 
+r= 36 | lvl=3 | Office Equipment                    | BS_SUMIFS    | 
+r= 37 | lvl=3 | Production Equipment                | BS_SUMIFS    | 
+r= 38 | lvl=2 | Total Fixed Assets                  | FORMULA      | =ROUND(SUM(D25:D37),5)
+r= 39 | lvl=2 | Other Assets                        | HEADER       | 
+r= 40 | lvl=3 | Deposit                             | BS_SUMIFS    | 
+r= 41 | lvl=3 | Employee Advance                    | BS_SUMIFS    | 
+r= 42 | lvl=2 | Total Other Assets                  | FORMULA      | =ROUND(SUM(D39:D41),5)
+r= 43 | lvl=1 | TOTAL ASSETS                        | FORMULA      | =ROUND(D4+D24+D38+D42,5)
+r= 44 | lvl=1 | LIABILITIES & EQUITY                | HEADER       | 
+r= 45 | lvl=2 | Liabilities                         | HEADER       | 
+r= 46 | lvl=3 | Current Liabilities                 | HEADER       | 
+r= 47 | lvl=4 | Accounts Payable                    | BS_SUMIFS    | 
+r= 48 | lvl=4 | Credit Cards                        | HEADER       | 
+r= 49 | lvl=5 | Home Depot                          | BS_SUMIFS    | 
+r= 50 | lvl=5 | Macy's                              | BS_SUMIFS    | 
+r= 51 | lvl=5 | VISA - 7025                         | BS_SUMIFS    | 
+r= 52 | lvl=4 | Total Credit Cards                  | FORMULA      | =ROUND(SUM(D48:D51),5)
+r= 53 | lvl=4 | Other Current Liabilities           | HEADER       | 
+r= 54 | lvl=5 | Accrued Expenses                    | BS_SUMIFS    | 
+r= 55 | lvl=5 | Installment Loan                    | HEADER       | 
+r= 56 | lvl=6 | Electric Forklift 7FBEU20           | BS_SUMIFS    | 
+r= 57 | lvl=6 | Forklift Battery                    | BS_SUMIFS    | 
+r= 58 | lvl=6 | Toyota                              | BS_SUMIFS    | 
+r= 59 | lvl=5 | Total Installment Loan              | FORMULA      | =ROUND(SUM(D56:D58),5)
+r= 60 | lvl=5 | Payroll Liabilities                 | HEADER       | 
+r= 61 | lvl=6 | Payroll Liabilities - Other         | BS_SUMIFS    | 
+r= 62 | lvl=6 | Payroll Accrual                     | BS_SUMIFS    | 
+r= 63 | lvl=5 | Total Payroll Liabilities           | FORMULA      | =ROUND(SUM(D60:D62),5)
+r= 64 | lvl=4 | Total Other Current Liabilities     | FORMULA      | =ROUND(SUM(D53:D54)+D59+D63,5)
+r= 65 | lvl=3 | Total Current Liabilities           | FORMULA      | =ROUND(D47+D52+D64,5)
+r= 66 | lvl=3 | Long Term Liabilities               | HEADER       | 
+r= 67 | lvl=4 | Advance from Danway Holdings Lt     | BS_SUMIFS    | 
+r= 68 | lvl=4 | East West Loan # 332001332          | BS_SUMIFS    | 
+r= 69 | lvl=4 | East West Loan # 355001220          | BS_SUMIFS    | 
+r= 70 | lvl=4 | Loan from Shareholders              | BS_SUMIFS    | 
+r= 71 | lvl=4 | Loan Payable - Alex Do              | BS_SUMIFS    | 
+r= 72 | lvl=4 | Loan Payable - DDFH                 | BS_SUMIFS    | 
+r= 73 | lvl=4 | Loan Payable - Danways              | BS_SUMIFS    | 
+r= 74 | lvl=4 | Loan Payable - DDF Hongkong         | BS_SUMIFS    | 
+r= 75 | lvl=4 | Loan Payable - DDP, LLC             | BS_SUMIFS    | 
+r= 76 | lvl=4 | Loan Payable - Horseshoe            | BS_SUMIFS    | 
+r= 77 | lvl=3 | Total Long Term Liabilities         | FORMULA      | =ROUND(SUM(D66:D76),5)
+r= 78 | lvl=2 | Total Liabilities                   | FORMULA      | =ROUND(+D65+D77,5)
+r= 79 | lvl=2 | Equity                              | HEADER       | 
+r= 80 | lvl=3 | Capital Stock                       | BS_SUMIFS    | 
+r= 81 | lvl=3 | Members Equity                      | BS_SUMIFS    | 
+r= 82 | lvl=3 | Retained Earnings                   | BS_SUMIFS    | 
+r= 83 | lvl=3 | Net Income                          | BS_SUMIFS    | 
+r= 84 | lvl=2 | Total Equity                        | FORMULA      | =ROUND(SUM(D79:D83),5)
+r= 85 | lvl=1 | TOTAL LIABILITIES & EQUITY          | FORMULA      | =ROUND(D46+D78+D84,5)
+r= 86 | lvl=1 | Check                               | FORMULA      | =D85-D43
+r= 87 | lvl=0 |                                     | BLANK        | 
+r= 88 | lvl=0 |                                     | BLANK        | 
+r= 89 | lvl=1 | PROFIT AND LOSS                     | TITLE        | 
+r= 90 | lvl=1 | Income                              | HEADER       | 
+r= 91 | lvl=2 | REVENUE                             | HEADER       | 
+r= 92 | lvl=3 | Custom Processing                   | HEADER       | 
+r= 93 | lvl=4 | Mixing fee                          | PL_SUMIFS    | 
+r= 94 | lvl=4 | Packing Fees                        | PL_SUMIFS    | 
+r= 95 | lvl=4 | Custom Processing - Other           | PL_SUMIFS    | 
+r= 96 | lvl=4 | Roasting Fees                       | PL_SUMIFS    | 
+r= 97 | lvl=3 | Total Custom Processing             | FORMULA      | =ROUND(SUM(D92:D96),5)
+r= 98 | lvl=3 | Discounts Allowed                   | PL_SUMIFS    | 
+r= 99 | lvl=3 | Other Revenue                       | PL_SUMIFS    | 
+r=100 | lvl=3 | Returns and Allowances              | PL_SUMIFS    | 
+r=101 | lvl=3 | Sales                               | PL_SUMIFS    | 
+r=102 | lvl=3 | Store Sales                         | PL_SUMIFS    | 
+r=103 | lvl=2 | Total REVENUE                       | FORMULA      | =ROUND(D91+SUM(D97:D102),5)
+r=104 | lvl=1 | Total Income                        | FORMULA      | =ROUND(D90+D103,5)
+r=105 | lvl=1 | Cost of Goods Sold                  | HEADER       | 
+r=106 | lvl=2 | Cost of Goods Sold                  | HEADER       | 
+r=107 | lvl=3 | Discounts on Purchases              | PL_SUMIFS    | 
+r=108 | lvl=3 | Inventory Write Off                 | PL_SUMIFS    | 
+r=109 | lvl=3 | Physical Inventory Variance         | PL_SUMIFS    | 
+r=110 | lvl=3 | Cost of Goods Sold - Other          | PL_SUMIFS    | 
+r=111 | lvl=2 | Total Cost of Goods Sold            | FORMULA      | =ROUND(SUM(D106:D110),5)
+r=112 | lvl=2 | Direct Labor                        | HEADER       | 
+r=113 | lvl=3 | Applied DL                          | PL_SUMIFS    | 
+r=114 | lvl=3 | Bonus                               | PL_SUMIFS    | 
+r=115 | lvl=3 | Payroll Taxes                       | PL_SUMIFS    | 
+r=116 | lvl=3 | Temporary Labor                     | PL_SUMIFS    | 
+r=117 | lvl=3 | Direct Labor                        | PL_SUMIFS    | 
+r=118 | lvl=2 | Total Direct Labor                  | FORMULA      | =ROUND(SUM(D112:D117),5)
+r=119 | lvl=2 | FACTORY OVERHEAD                    | HEADER       | 
+r=120 | lvl=3 | Applied OH                          | PL_SUMIFS    | 
+r=121 | lvl=3 | Bonus                               | PL_SUMIFS    | 
+r=122 | lvl=3 | Building Repairs                    | PL_SUMIFS    | 
+r=123 | lvl=3 | Calibration & Certification         | PL_SUMIFS    | 
+r=124 | lvl=3 | Cleaning Services                   | PL_SUMIFS    | 
+r=125 | lvl=3 | Consulting                          | PL_SUMIFS    | 
+r=126 | lvl=3 | Depreciation Expense                | PL_SUMIFS    | 
+r=127 | lvl=3 | Equipment Rental                    | PL_SUMIFS    | 
+r=128 | lvl=3 | Equipment Repairs                   | PL_SUMIFS    | 
+r=129 | lvl=3 | Fire Protection                     | PL_SUMIFS    | 
+r=130 | lvl=3 | Fumigation                          | PL_SUMIFS    | 
+r=131 | lvl=3 | Janitorial Supplies                 | PL_SUMIFS    | 
+r=132 | lvl=3 | Lab Fees                            | PL_SUMIFS    | 
+r=133 | lvl=3 | Lease Payment                       | PL_SUMIFS    | 
+r=134 | lvl=3 | Licenses & Permits                  | PL_SUMIFS    | 
+r=135 | lvl=3 | Pallets                             | PL_SUMIFS    | 
+r=136 | lvl=3 | Payroll Expense                     | HEADER       | 
+r=137 | lvl=4 | Payroll Taxes Production            | PL_SUMIFS    | 
+r=138 | lvl=4 | Payroll Expense - Other             | PL_SUMIFS    | 
+r=139 | lvl=4 | Salaries                            | PL_SUMIFS    | 
+r=140 | lvl=3 | Total Payroll Expense               | FORMULA      | =ROUND(SUM(D136:D139),5)
+r=141 | lvl=3 | Pest Control                        | PL_SUMIFS    | 
+r=142 | lvl=3 | Plate Charge                        | PL_SUMIFS    | 
+r=143 | lvl=3 | Production Supplies                 | PL_SUMIFS    | 
+r=144 | lvl=3 | Rent Expense                        | PL_SUMIFS    | 
+r=145 | lvl=3 | Repairs and Maintenance             | PL_SUMIFS    | 
+r=146 | lvl=3 | Sales Tax/Use Tax                   | PL_SUMIFS    | 
+r=147 | lvl=3 | Tools & Instruments                 | PL_SUMIFS    | 
+r=148 | lvl=3 | Training and Seminars               | PL_SUMIFS    | 
+r=149 | lvl=3 | Uniforms                            | PL_SUMIFS    | 
+r=150 | lvl=3 | Utilities                           | PL_SUMIFS    | 
+r=151 | lvl=3 | Validation Expenses                 | PL_SUMIFS    | 
+r=152 | lvl=3 | Workers Comp                        | PL_SUMIFS    | 
+r=153 | lvl=3 | FACTORY OVERHEAD - Other            | PL_SUMIFS    | 
+r=154 | lvl=3 | Freight and Shipping Costs          | PL_SUMIFS    | 
+r=155 | lvl=2 | Total FACTORY OVERHEAD              | FORMULA      | =ROUND(SUM(D119:D135)+SUM(D140:D154),5)
+r=156 | lvl=1 | Total COGS                          | FORMULA      | =ROUND(D105+D111+D118+D155,5)
+r=157 | lvl=1 | Gross Profit                        | FORMULA      | =ROUND(D104-D156,5)
+r=158 | lvl=1 | Expense                             | HEADER       | 
+r=159 | lvl=2 | ADMINISTRATION EXPENSES             | HEADER       | 
+r=160 | lvl=3 | Accounting Fees                     | PL_SUMIFS    | 
+r=161 | lvl=3 | Automobile Expense                  | HEADER       | 
+r=162 | lvl=4 | Auto Repairs                        | PL_SUMIFS    | 
+r=163 | lvl=4 | Gasoline, parking & mileage         | PL_SUMIFS    | 
+r=164 | lvl=4 | Registration                        | PL_SUMIFS    | 
+r=165 | lvl=4 | Automobile Expense - Other          | PL_SUMIFS    | 
+r=166 | lvl=3 | Total Automobile Expense            | FORMULA      | =ROUND(SUM(D161:D165),5)
+r=167 | lvl=3 | Bad Debts Expense                   | PL_SUMIFS    | 
+r=168 | lvl=3 | Bank Service Charges                | PL_SUMIFS    | 
+r=169 | lvl=3 | Bank Document Fees                  | PL_SUMIFS    | 
+r=170 | lvl=3 | Business Tax                        | PL_SUMIFS    | 
+r=171 | lvl=3 | Computer and Internet Expenses      | PL_SUMIFS    | 
+r=172 | lvl=3 | Credit Card Service Charge          | PL_SUMIFS    | 
+r=173 | lvl=3 | Donation                            | PL_SUMIFS    | 
+r=174 | lvl=3 | Dues and Subscriptions              | PL_SUMIFS    | 
+r=175 | lvl=3 | Insurance Expense                   | HEADER       | 
+r=176 | lvl=4 | General Liability                   | PL_SUMIFS    | 
+r=177 | lvl=4 | Property                            | PL_SUMIFS    | 
+r=178 | lvl=4 | Insurance Expense - Other           | PL_SUMIFS    | 
+r=179 | lvl=4 | Vehicle Insurance                   | PL_SUMIFS    | 
+r=180 | lvl=3 | Total Insurance Expense             | FORMULA      | =ROUND(SUM(D175:D179),5)
+r=181 | lvl=3 | Legal                               | PL_SUMIFS    | 
+r=182 | lvl=3 | Licenses & Permits                  | PL_SUMIFS    | 
+r=183 | lvl=3 | Loan Processing Fees                | PL_SUMIFS    | 
+r=184 | lvl=3 | Meals and Entertainment             | PL_SUMIFS    | 
+r=185 | lvl=3 | Office Expenses                     | PL_SUMIFS    | 
+r=186 | lvl=3 | Payroll Expenses                    | HEADER       | 
+r=187 | lvl=4 | Bonus                               | PL_SUMIFS    | 
+r=188 | lvl=4 | Payroll Processing Fees             | PL_SUMIFS    | 
+r=189 | lvl=4 | Payroll Taxes - Admin               | PL_SUMIFS    | 
+r=190 | lvl=4 | Salaries - Admin                    | PL_SUMIFS    | 
+r=191 | lvl=4 | Medical Expenses                    | PL_SUMIFS    | 
+r=192 | lvl=4 | Employee Benefits                   | PL_SUMIFS    | 
+r=193 | lvl=4 | Payroll Expenses - Other            | PL_SUMIFS    | 
+r=194 | lvl=3 | Total Payroll Expenses              | FORMULA      | =ROUND(SUM(D186:D193),5)
+r=195 | lvl=3 | Penalty & fine                      | PL_SUMIFS    | 
+r=196 | lvl=3 | Property Taxes Paid                 | PL_SUMIFS    | 
+r=197 | lvl=3 | Printing & Reproduction             | PL_SUMIFS    | 
+r=198 | lvl=3 | Security and Alarm System           | PL_SUMIFS    | 
+r=199 | lvl=3 | Suspense                            | PL_SUMIFS    | 
+r=200 | lvl=3 | Storage Expense                     | PL_SUMIFS    | 
+r=201 | lvl=3 | State Tax                           | PL_SUMIFS    | 
+r=202 | lvl=3 | ADMINISTRATION EXPENSES - Other     | PL_SUMIFS    | 
+r=203 | lvl=3 | Telephone Expense                   | PL_SUMIFS    | 
+r=204 | lvl=2 | Total ADMINISTRATION EXPENSES       | FORMULA      | =ROUND(SUM(D159:D160)+SUM(D166:D174)+SUM(D180:D185)+SUM(D194:D203),5)
+r=205 | lvl=2 | SALES EXPENSES                      | HEADER       | 
+r=206 | lvl=3 | Commissions                         | PL_SUMIFS    | 
+r=207 | lvl=3 | Domestic Shipping & Handling        | PL_SUMIFS    | 
+r=208 | lvl=3 | EDI Fees                            | PL_SUMIFS    | 
+r=209 | lvl=3 | Export Shipping & Handling          | PL_SUMIFS    | 
+r=210 | lvl=3 | Postage and Delivery Expense        | PL_SUMIFS    | 
+r=211 | lvl=3 | Service Fee                         | PL_SUMIFS    | 
+r=212 | lvl=3 | Shipping Supplies                   | PL_SUMIFS    | 
+r=213 | lvl=3 | Trade Show/Promotion                | PL_SUMIFS    | 
+r=214 | lvl=3 | SALES EXPENSES - Other              | PL_SUMIFS    | 
+r=215 | lvl=3 | Travel Expense                      | PL_SUMIFS    | 
+r=216 | lvl=2 | Total SALES EXPENSES                | FORMULA      | =ROUND(SUM(D205:D215),5)
+r=217 | lvl=2 | Taxes                               | PL_SUMIFS    | 
+r=218 | lvl=1 | Total Expense                       | FORMULA      | =ROUND(D158+D204+SUM(D216:D217),5)
+r=219 | lvl=1 | Net Ordinary Income                 | FORMULA      | =ROUND(D157-D218,5)
+r=220 | lvl=1 | Other Income/Expense                | HEADER       | 
+r=221 | lvl=2 | Other Income                        | HEADER       | 
+r=222 | lvl=3 | Foreign Currency Gain/Loss          | PL_SUMIFS    | 
+r=223 | lvl=3 | Other Income                        | PL_SUMIFS    | 
+r=224 | lvl=2 | Total Other Income                  | FORMULA      | =ROUND(SUM(D221:D223),5)
+r=225 | lvl=2 | Other Expense                       | HEADER       | 
+r=226 | lvl=3 | Interest Expense                    | PL_SUMIFS    | 
+r=227 | lvl=3 | Loss(Gain) on disposal of Asset     | PL_SUMIFS    | 
+r=228 | lvl=3 | Other Expense (adjustment)          | PL_SUMIFS    | 
+r=229 | lvl=2 | Total Other Expense                 | FORMULA      | =ROUND(SUM(D225:D228),5)
+r=230 | lvl=1 | Net Other Income                    | FORMULA      | =ROUND(D224-D229,5)
+r=231 | lvl=1 | Net operating Income                | FORMULA      | =ROUND(D219+D230,5)
+r=232 | lvl=0 |                                     | BLANK        | 
+r=233 | lvl=1 | Commission/Service Fee - Vietnam    | PL_SUMIFS    | 
+r=234 | lvl=1 | Adjusted Net Income                 | FORMULA      | =SUM(D231:D233)
